@@ -1,0 +1,1363 @@
+{
+    "Web_development": [
+      {
+        "akronim": "AJAX",
+        "puni_naziv": "Asynchronous JavaScript and XML",
+        "definicija": "A way of including content in a web page in which javascript code in the web page fetches some data from a server and displays it without re-fetching the entire surrounding page at the same time (hence the 'Asynchronous')",
+        "definicija_hr": "Način uključivanja sadržaja na web stranicu pri kojem JavaScript kod na stranici dohvaća podatke s poslužitelja i prikazuje ih bez ponovnog učitavanja cijele stranice u isto vrijeme (otuda naziv 'Asinkrono')."
+      },
+      {
+        "akronim": "ASP",
+        "puni_naziv": "Active Server Pages",
+        "definicija": "Microsoft technology, allows programmers to develop custom code that works with Microsoft's IIS.",
+        "definicija_hr": "Microsoftova tehnologija koja omogućuje programerima razvoj prilagođenog koda koji radi s Microsoftovim IIS-om."
+      },
+      {
+        "akronim": "ASP.NET",
+        "puni_naziv": "Active Server Pages Network Enabled Technologies",
+        "definicija": "ASP.NET is a server-side web-application framework designed for web development to produce dynamic web pages. It was developed by Microsoft to allow programmers to build dynamic web sites, applications and services.",
+        "definicija_hr": "ASP.NET je okvir za web aplikacije na poslužiteljskoj strani dizajniran za web razvoj i stvaranje dinamičkih web stranica. Razvijen je od strane Microsofta kako bi programeri mogli graditi dinamičke web stranice, aplikacije i usluge."
+      },
+      {
+        "akronim": "ASPX",
+        "puni_naziv": "Active Server Pages eXtended",
+        "definicija": "Dynamic web pages engine for the Microsoft .NET framework.",
+        "definicija_hr": "Pokretač dinamičkih web stranica za Microsoft .NET okvir."
+      },
+      {
+        "akronim": "AWS",
+        "puni_naziv": "Amazon Web Services",
+        "definicija": "Collection of remote computing services.",
+        "definicija_hr": "Skup udaljenih računalnih usluga."
+      },
+      {
+        "akronim": "CDA",
+        "puni_naziv": "Content Delivery Application",
+        "definicija": "Helps store, publish and improve website response and load time.",
+        "definicija_hr": "Pomaže u pohrani, objavljivanju i poboljšanju vremena odziva i učitavanja web stranica"
+      },
+      {
+        "akronim": "CDN",
+        "puni_naziv": "Content-delivery Network",
+        "definicija": "A network specializing in the delivery of streaming audio and video.",
+        "definicija_hr": "Mreža specijalizirana za dostavu audio i video streaminga."
+      },
+      {
+        "akronim": "CMA",
+        "puni_naziv": "Content Management Application",
+        "definicija": "Computer program used to provide a joint process of creating, managing, and editing content.",
+        "definicija_hr": "Računalni program koji omogućuje zajednički proces stvaranja, upravljanja i uređivanja sadržaja."
+      },
+      {
+        "akronim": "CMS",
+        "puni_naziv": "Content Management System",
+        "definicija": "A web application designed to make it easy for non-technical users to add, edit and manage a website.",
+        "definicija_hr": "Web aplikacija dizajnirana za olakšavanje dodavanja, uređivanja i upravljanja web stranicama za korisnike bez tehničkog znanja."
+      },
+      {
+        "akronim": "CSS",
+        "puni_naziv": "Cascading Style Sheet",
+        "definicija": "Cascading style sheets are used to format the layout of Web pages. They can be used to define text styles, table sizes, and other aspects of Web pages that previously could only be defined in a page's HTML.",
+        "definicija_hr": "Kaskadni stilovi koriste se za oblikovanje izgleda web stranica. Mogu se koristiti za definiranje stilova teksta, veličina tablica i drugih aspekata web stranica koji su prethodno mogli biti definirani samo u HTML-u stranice."
+      },
+      {
+        "akronim": "DTD",
+        "puni_naziv": "Document Type Definition",
+        "definicija": "A type of file associated with SGML and XML documents that defines how the markup tags should be interpreted by the application presenting the document.",
+        "definicija_hr": "Vrsta datoteke povezana sa SGML i XML dokumentima koja definira kako oznake označavanja trebaju biti interpretirane od strane aplikacije koja prikazuje dokument."
+      },
+      {
+        "akronim": "EJB",
+        "puni_naziv": "Enterprise JavaBeans",
+        "definicija": "A component architecture defined by Sun Microsystems for the development and deployment of object-oriented, distributed, enterprise-level applications.",
+        "definicija_hr": "Arhitektura komponenata koja je definirana od strane Sun Microsystems za razvoj i implementaciju objektno-orijentiranih, distribuiranih te aplikacija na razini poduzeća."
+      },
+      {
+        "akronim": "GWT",
+        "puni_naziv": "Google Web Toolkit",
+        "definicija": "Open source Java software development framework that makes writing AJAX applications like Google Maps and Gmail easy for developers who don't speak browser quirks as a second language.",
+        "definicija_hr": "Okvir za razvoj Java softvera otvorenog koda koji olakšava pisanje AJAX aplikacija poput Google Maps i Gmail-a za programere koji 'ne govore sve specifičnosti preglednika kao drugi jezik'."
+      },
+      {
+        "akronim": "HR",
+        "puni_naziv": "Horizontal Rule",
+        "definicija": "Tag used in HTML to indicate a horizontal rule.",
+        "definicija_hr": "Oznaka koja se koristi u HTML-u za označavanje horizontalne linije."
+      },
+      {
+        "akronim": "HTML",
+        "puni_naziv": "HyperText Markup Language",
+        "definicija": "The coding language used to create Hypertext documents for use on the world wide web. HTML looks a lot like old-fashioned typesetting code, where you surround a block of text with codes that indicate how it should appear. Additionally, in HTML you can specify that a block of text, or a word, is linked to another file on the Internet.",
+        "definicija_hr": "Programski jezik koji se koristi za izradu hipertekstualnih dokumenata za upotrebu na World Wide Webu. HTML nalikuje starinskom kodu za slaganje teksta, gdje se blok teksta okružuje oznakama koje određuju kako će se prikazati. Osim toga, u HTML-u možete naznačiti da je određeni blok teksta ili riječ povezana s drugom datotekom na internetu."
+      },
+      {
+        "akronim": "IIS",
+        "puni_naziv": "Internet Information Services",
+        "definicija": "A Microsoft web server that runs on Windows operating system and is used to exchange static and dynamic web content with internet users.",
+        "definicija_hr": "Microsoftov web poslužitelj koji radi na Windows operativnom sustavu i koristi se za razmjenu statičkog i dinamičkog web sadržaja s korisnicima interneta."
+      },
+      {
+        "akronim": "JS",
+        "puni_naziv": "JavaScript",
+        "definicija": "A language that allows a web page to include commands to be executed by the web browser. For example, you may wish your web page to have dialog boxes that appear when the user clicks on certain places.",
+        "definicija_hr": "Jezik koji omogućuje web stranici da uključuje naredbe koje izvršava web preglednik. Na primjer, možete željeti da vaša web stranica ima dijaloške okvire koji se pojavljuju kada korisnik klikne na određena mjesta."
+      },
+      {
+        "akronim": "JSON",
+        "puni_naziv": "JavaScript Object Notation",
+        "definicija": "A format for exchanging data that are structured as a collection of name-value pairs or an ordered list of values.",
+        "definicija_hr": "Format za razmjenu podataka koji su strukturirani kao zbirka parova naziv-vrijednost ili kao uređeni popis vrijednosti."
+      },
+      {
+        "akronim": "JSP",
+        "puni_naziv": "Java Server Page",
+        "definicija": "This standard was developed by Sun Microsystems as an alternative to Microsoft's active server page (ASP) technology. JSP pages are similar to ASP pages in that they are compiled on the server, rather than in a user's Web browser. However, JSP is Java-based, whereas ASP is Visual Basic-based.",
+        "definicija_hr": "Ovaj standard razvio je Sun Microsystems kao alternativu Microsoftovoj tehnologiji ASP (Active Server Page). JSP stranice slične su ASP stranicama po tome što se kompiliraju na poslužitelju, a ne u korisnikovom web pregledniku. Međutim, JSP se temelji na Javi, dok se ASP temelji na Visual Basicu."
+      }
+    ],
+
+
+    "Umrezavanje_i_komunikacija": [
+      {
+        "akronim": "ADSL",
+        "puni_naziv": "Asymmetric Digital Subscriber Line",
+        "definicija": "A digital local loop using copper facilities and providing greater bandwidth in one direction than the other.",
+        "definicija_hr": "Digitalna lokalna petlja koja koristi bakrene uređaje i pruža veću propusnost u jednom smjeru nego u drugom."
+      },
+      {
+        "akronim": "ARPANET",
+        "puni_naziv": "Advance Research Projects Agency Network",
+        "definicija": "A packet-switched network developed in the early 1970s. The “father” of today’s Internet. ARPANET was decommissioned in June 1990.",
+        "definicija_hr": "Paketno komutirana mreža razvila se ranih 1970-ih. 'Otac' današnjeg interneta. ARPANET je prestao s radom u lipnju 1990."
+      },
+      {
+        "akronim": "CHAP",
+        "puni_naziv": "Challenge-Handshake Authentication Protocol",
+        "definicija": "An authentication protocol used in Point-to-Point Protocol to validate users in most network operating systems. It’s also used in other protocols such as RADIUS and Diameter.",
+        "definicija_hr": "Protokol provjere autentičnosti koji se koristi u protokolu Point-to-Point za provjeru valjanosti korisnika u većini mrežnih operativnih sustava. Također se koristi u drugim protokolima kao što su RADIUS i Diameter."
+      },
+      {
+        "akronim": "CHAT",
+        "puni_naziv": "Conversational Hypertext Access Technology",
+        "definicija": "A form of interactive online typewritten communication that allows participants ('members') to engage in text-message conferencing, via real-time computer networking over designated communications facilities.",
+        "definicija_hr": "Oblik interaktivne online tipkane komunikacije koji omogućuje sudionicima ('članovima') da se uključe u konferenciju s tekstualnim porukama, putem računalne mreže u stvarnom vremenu preko određenih komunikacijskih sredstava."
+      },
+      {
+        "akronim": "CNAME",
+        "puni_naziv": "Canonical name",
+        "definicija": "A host's official name as opposed to an alias. The official name is the first hostname listed for its Internet address in the hostname database.",
+        "definicija_hr": "Službeni naziv domaćina za razliku od pseudonima. Službeni naziv je prvi naziv hosta naveden za njegovu internetsku adresu u bazi podataka naziva hosta."
+      },
+      {
+        "akronim": "DHCP",
+        "puni_naziv": "Dynamic Host Configuration Protocol",
+        "definicija": "A network server uses this protocol to dynamically assign IP addresses to networked computers. The DHCP server waits for a computer to connect to it, then assigns it an IP address from a master list stored on the server.",
+        "definicija_hr": "Mrežni poslužitelj koristi ovaj protokol za dinamičku dodjelu IP adresa umreženim računalima. DHCP poslužitelj čeka da se računalo poveže s njim, a zatim mu dodjeljuje IP adresu s glavnog popisa pohranjenog na poslužitelju."
+      },
+      {
+        "akronim": "DNS",
+        "puni_naziv": "Domain Name Service / Server / System",
+        "definicija": "The way that Internet domain names are located and translated into IP addresses. A domain name is a meaningful and easy-to-remember 'handle' for an Internet address.",
+        "definicija_hr": "Način na koji se nazivi internetskih domena lociraju i prevode u IP adrese. Naziv domene je smislena i lako pamtljiva 'ručka' za internetsku adresu."
+      },
+      {
+        "akronim": "DSL",
+        "puni_naziv": "Digital Subscriber Line",
+        "definicija": "It is medium for transferring data over regular phone lines and can be used to connect to the Internet.",
+        "definicija_hr": "Sredstvo je za prijenos podataka putem običnih telefonskih linija i može se koristiti za spajanje na Internet."
+      },
+      {
+        "akronim": "EDI",
+        "puni_naziv": "Electronic Data Interchange",
+        "definicija": "The exchange of structured electronic data between computer systems according to predefined message standards.",
+        "definicija_hr": "Razmjena strukturiranih elektroničkih podataka između računalnih sustava prema unaprijed definiranim standardima poruka."
+      },
+      {
+        "akronim": "GPRS",
+        "puni_naziv": "General Packet Radio Service",
+        "definicija": "GPRS is a packet-oriented overlay to GSM networks supporting connection- and connectionless-oriented services and diverse quality-of-service mechanisms. The theoretical maximum speed is 171.2 Kbps, but real-life user throughput is expected to be 56 Kbps or less.",
+        "definicija_hr": "GPRS je paketno orijentirano prekrivanje GSM mreža koje podržava usluge usmjerene na povezivanje i bez povezivanja te različite mehanizme kvalitete usluge. Teoretska maksimalna brzina je 171,2 Kbps, ali se očekuje da stvarna korisnička propusnost bude 56 Kbps ili manje."
+      },
+      {
+        "akronim": "GPS",
+        "puni_naziv": "Global Positioning System",
+        "definicija": "A a satellite navigation system used to determine ground position and velocity (location, speed, and direction). Though it was created and originally used by the U.S. military, GPS is now available to the general public all over the world.",
+        "definicija_hr": "Satelitski navigacijski sustav koji se koristi za određivanje položaja i brzine na tlu (lokacija, brzina i smjer). Iako ga je stvorila i izvorno koristila američka vojska, GPS je sada dostupan široj javnosti diljem svijeta."
+      },
+      {
+        "akronim": "ICANN",
+        "puni_naziv": "Internet Corporation For Assigned Names and Numbers",
+        "definicija": "The ICANN is an non-profit corporation that is responsible for allocating IP address and managing the domain name system. Every computer connected to the Internet, from servers to home PCs, has an IP address.",
+        "definicija_hr": "ICANN je neprofitna korporacija koja je odgovorna za dodjelu IP adresa i upravljanje sustavom naziva domene. Svako računalo spojeno na Internet, od poslužitelja do kućnog računala, ima IP adresu."
+      },
+      {
+        "akronim": "IMAP",
+        "puni_naziv": "Internet Message Access Protocol",
+        "definicija": "It is a method of accessing e-mail messages on a server without having to download them to your local hard drive. This is the main difference between IMAP and another popular e-mail protocol called 'POP3'. POP3 requires users to download messages to their hard drive before reading them. The advantage of using an IMAP mail server is that users can check their mail from multiple computers and always see the same messages.",
+        "definicija_hr": "To je metoda pristupa porukama e-pošte na poslužitelju bez potrebe za njihovim preuzimanjem na vaš lokalni tvrdi disk. Ovo je glavna razlika između IMAP-a i drugog popularnog protokola e-pošte koji se zove 'POP3'. POP3 zahtijeva od korisnika preuzimanje poruka na svoj tvrdi disk prije nego što ih pročitaju. Prednost korištenja IMAP poslužitelja pošte je ta što korisnici mogu provjeravati svoju poštu s više računala i uvijek vidjeti iste poruke."
+      },
+      {
+        "akronim": "ISP",
+        "puni_naziv": "Internet Service Provider",
+        "definicija": "An institution that provides access to the Internet in some form, usually for money.",
+        "definicija_hr": "Institucija koja pruža pristup Internetu u nekom obliku, obično za novac."
+      },
+      {
+        "akronim": "LAN",
+        "puni_naziv": "Local Area Network",
+        "definicija": "Collection of devices connected together in one physical location, such as a building, office, or home.",
+        "definicija_hr": "Zbirka uređaja povezanih zajedno na jednoj fizičkoj lokaciji, kao što je zgrada, ured ili dom."
+      },
+      {
+        "akronim": "MAC",
+        "puni_naziv": "Media Access Control",
+        "definicija": "A MAC address is a hardware identification number that uniquely identifies each device on a network. The MAC address is manufactured into every network card, such as an Ethernet card or Wi-Fi card, and therefore cannot be changed.",
+        "definicija_hr": "MAC adresa je hardverski identifikacijski broj koji jedinstveno identificira svaki uređaj na mreži. MAC adresa je proizvedena u svakoj mrežnoj kartici, kao što je Ethernet kartica ili Wi-Fi kartica, i stoga se ne može promijeniti."
+      },
+      {
+        "akronim": "MMS",
+        "puni_naziv": "Multimedia Messaging Service",
+        "definicija": "A mobile-messaging standard jointly defined by the 3G Partnership Project and the WAP Forum. MMS provides a broad set of features that cannot be delivered through traditional wireless-messaging standards, and to send messages to both mobile phone numbers and e-mail addresses.",
+        "definicija_hr": "Standard mobilnih poruka koji su zajednički definirali 3G Partnership Project i WAP Forum. MMS pruža širok skup značajki koje se ne mogu isporučiti putem tradicionalnih standarda bežične razmjene poruka i za slanje poruka na brojeve mobilnih telefona i adrese e-pošte."
+      },
+      {
+        "akronim": "MPLS",
+        "puni_naziv": "Multiprotocol Label Switching",
+        "definicija": "Networking technology that routes traffic using the shortest path based on “labels,” rather than network addresses, to handle forwarding over private wide area networks.",
+        "definicija_hr": "Tehnologija umrežavanja koja usmjerava promet korištenjem najkraćeg puta na temelju 'oznaka', umjesto mrežnih adresa, za upravljanje prosljeđivanjem preko privatnih mreža širokog područja."
+      },
+      {
+        "akronim": "NFC",
+        "puni_naziv": "Near-field Communication",
+        "definicija": "A short-range, wireless, personal-area technology designed to interact with consumer electronics, mobile devices and PCs.",
+        "definicija_hr": "Bežična osobna tehnologija kratkog dometa dizajnirana za interakciju s potrošačkom elektronikom, mobilnim uređajima i osobnim računalima."
+      },
+      {
+        "akronim": "NMS",
+        "puni_naziv": "Network Monitoring Software",
+        "definicija": "Network monitoring software is designed to monitor and manage the network traffic flow over a network. It is mainly used by network administrators and security staff to monitor the operations of a network. It automates most of the network monitoring processes and workflow.",
+        "definicija_hr": "Softver za nadzor mreže dizajniran je za nadzor i upravljanje protokom mrežnog prometa preko mreže. Uglavnom ga koriste mrežni administratori i sigurnosno osoblje za nadzor rada mreže. Automatizira većinu procesa nadzora mreže i tijek rada."
+      },
+      {
+        "akronim": "OSI",
+        "puni_naziv": "Open Systems Interconnection",
+        "definicija": "A model developed by the International Organization for Standardization (ISO) for communications, OSI offers a standard, modular approach to network design that divides the required set of complex functions into manageable, selfcontained, functional layers.",
+        "definicija_hr": "Model koji je razvila Međunarodna organizacija za standardizaciju (ISO) za komunikacije, OSI nudi standardni, modularni pristup projektiranju mreže koji dijeli potrebni skup složenih funkcija u upravljive, samostalne, funkcionalne slojeve."
+      },
+      {
+        "akronim": "POP3",
+        "puni_naziv": "Post Office Protocol v3",
+        "definicija": "POP3, sometimes referred to as just 'POP,'' is a simple, standardized method of delivering e-mail messages. A POP3 mail server receives e-mails and filters them into the appropriate user folders. When a user connects to the mail server to retrieve his mail, the messages are downloaded from mail server to the user's hard disk.",
+        "definicija_hr": "POP3, koji se ponekad naziva i samo 'POP', jednostavan je, standardizirani način isporuke e-poruka. POP3 poslužitelj e-pošte prima e-poštu i filtrira je u odgovarajuće korisničke mape. Kada se korisnik spoji na poslužitelj pošte kako bi preuzeo svoju poštu, poruke se preuzimaju s poslužitelja pošte na korisnikov tvrdi disk."
+      },
+      {
+        "akronim": "PPPOE",
+        "puni_naziv": "Point-to-Point Protocol over Ethernet",
+        "definicija": "PPPoE is a specification for connecting multiple computer users on local network to a remote site using a modem, gateway or router that supports the appropriate protocol layers and authentication for the point-to-point connection to be established.",
+        "definicija_hr": "PPPoE je specifikacija za povezivanje više korisnika računala na lokalnoj mreži s udaljenim mjestom pomoću modema, pristupnika ili usmjerivača koji podržava odgovarajuće slojeve protokola i autentifikaciju za uspostavljanje veze od točke do točke."
+      },
+      {
+        "akronim": "PSTN",
+        "puni_naziv": "Public Switched Telephone Network",
+        "definicija": "A combination of telephone networks used worldwide, including telephone lines, fiber optic cables, switching centers, cellular networks, satellites and cable systems.",
+        "definicija_hr": "Kombinacija telefonskih mreža koje se koriste diljem svijeta, uključujući telefonske linije, optičke kabele, komutacijske centre, mobilne mreže, satelite i kabelske sustave."
+      },
+      {
+        "akronim": "RCS",
+        "puni_naziv": "Rich Communication Services",
+        "definicija": "(RCS) is the next generation of text messaging, designed to replace the limitations of SMS and MMS with a richer, more engaging experience.",
+        "definicija_hr": "(RCS) sljedeća je generacija tekstualnih poruka, osmišljena da zamijeni ograničenja SMS-a i MMS-a sa bogatijim, zanimljivijim iskustvom."
+      },
+      {
+        "akronim": "RPC",
+        "puni_naziv": "Remote Procedure Call",
+        "definicija": "Most computer programs run procedures, or sets of instructions, using the computer's CPU. In other words, the instructions are processed locally on the same computer that the software is running from.",
+        "definicija_hr": "Većina računalnih programa pokreće procedure ili skupove instrukcija koristeći CPU računala. Drugim riječima, upute se obrađuju lokalno na istom računalu s kojeg se softver pokreće."
+      },
+      {
+        "akronim": "SMS",
+        "puni_naziv": "Short Message Service",
+        "definicija": "A bidirectional paging function that is built into GSM systems. Each message can be up to 160 characters long. The network stores messages for several days and attempts to deliver the messages whenever the portable phone is switched on.",
+        "definicija_hr": "Funkcija dvosmjernog pozivanja koja je ugrađena u GSM sustave. Svaka poruka može imati do 160 znakova. Mreža pohranjuje poruke nekoliko dana i pokušava ih isporučiti kad god je prijenosni telefon uključen."
+      },
+      {
+        "akronim": "SMTP",
+        "puni_naziv": "Simple Mail Transfer Protocol",
+        "definicija": "A TCP/IP protocol governing electronic mail transmission and reception.",
+        "definicija_hr": "TCP/IP protokol koji upravlja prijenosom i primanjem elektroničke pošte."
+      },
+      {
+        "akronim": "VLAN",
+        "puni_naziv": "Virtual Local Area Network",
+        "definicija": "VLAN is a virtualized connection that connects multiple devices and network nodes from different LANs into one logical network.",
+        "definicija_hr": "LAN je virtualizirana veza koja povezuje više uređaja i mrežnih čvorova iz različitih LAN-ova u jednu logičku mrežu"
+      },
+      {
+        "akronim": "VOIP",
+        "puni_naziv": "Voice Over Internet Protocol",
+        "definicija": "VoIP is the transmission of voice communications over IP data networks, such as IP-based LANs, intranets or the Internet. VoIP is defined as basic voice transport and, as opposed to IP telephony, VoIP does not support any telephony features.",
+        "definicija_hr": "VoIP je prijenos govorne komunikacije putem IP podatkovnih mreža, kao što su LAN-ovi temeljeni na IP-u, intraneti ili Internet. VoIP je definiran kao osnovni prijenos glasa i, za razliku od IP telefonije, VoIP ne podržava nikakve telefonske značajke."
+      },
+      {
+        "akronim": "WAN",
+        "puni_naziv": "Wide Area Network",
+        "definicija": "The technology that connects your offices, data centers, cloud applications, and cloud storage together.",
+        "definicija_hr": "Tehnologija koja povezuje vaše urede, podatkovne centre, aplikacije u oblaku i pohranu u oblaku."
+      },
+      {
+        "akronim": "WIFI",
+        "puni_naziv": "Wireless Fidelity",
+        "definicija": "It is pretty much a rip-off of the term 'Hi-Fi', or High Fidelity, which refers to high-quality audio or surround sound. Wi-Fi refers to wireless network components that are based on one of the Wi-Fi Alliance's 802.11 standards.",
+        "definicija_hr": "Naziv Wi-Fi zapravo je izvedenica od izraza 'Hi-Fi' (High Fidelity), koji se odnosi na visokokvalitetni zvuk ili surround zvuk. Wi-Fi se odnosi na komponente bežične mreže koje se temelje na jednom od 802.11 standarda Wi-Fi Alliance-a."
+      },
+      {
+        "akronim": "WWW",
+        "puni_naziv": "World Wide Web",
+        "definicija": "A facility developed for the internet, but also used on virtual private networks, which enables network servers to be set-up and registered. These servers contain Hypertext which when clicked on by a user will point them to other network files containing further, related information.",
+        "definicija_hr": "Sustav razvijen za internet, ali se koristi i na virtualnim privatnim mrežama, koji omogućuje postavljanje i registraciju mrežnih poslužitelja. Ti poslužitelji sadrže hipertekst koji, kada ga korisnik klikne, usmjerava na druge mrežne datoteke s dodatnim, povezanim informacijama."
+      }
+    ],
+
+
+    "Programiranje_i_development": [
+      {
+        "akronim": "ADSL",
+        "puni_naziv": "Asymmetric Digital Subscriber Line",
+        "definicija": "A digital local loop using copper facilities and providing greater bandwidth in one direction than the other.",
+        "definicija_hr": "Digitalna lokalna petlja koja koristi bakrene instalacije i pruža veći propusni opseg u jednom smjeru nego u drugom."
+      },
+      {
+        "akronim": "ARPANET",
+        "puni_naziv": "Advance Research Projects Agency Network",
+        "definicija": "A packet-switched network developed in the early 1970s. The “father” of today’s Internet. ARPANET was decommissioned in June 1990.",
+        "definicija_hr": "Mreža koja prebacuje pakete, razvijena početkom 1970-ih. 'Otac' današnjeg Interneta. ARPANET je ukinut u lipnju 1990. godine."
+      },
+      {
+        "akronim": "CHAP",
+        "puni_naziv": "Challenge-Handshake Authentication Protocol",
+        "definicija": "An authentication protocol used in Point-to-Point Protocol to validate users in most network operating systems. It’s also used in other protocols such as RADIUS and Diameter.",
+        "definicija_hr": "Protokol za autentifikaciju koji se koristi u Point-to-Point protokolu za validaciju korisnika u većini mrežnih operacijskih sustava. Također se koristi u drugim protokolima kao što su RADIUS i Diameter."
+      },
+      {
+        "akronim": "CHAT",
+        "puni_naziv": "Conversational Hypertext Access Technology",
+        "definicija": "A form of interactive online typewritten communication that allows participants ('members') to engage in text-message conferencing, via real-time computer networking over designated communications facilities.",
+        "definicija_hr": "Oblik interaktivne online pisane komunikacije koji omogućava sudionicima ('članovima') sudjelovanje u konferencijama putem tekstualnih poruka, putem računalne mreže u stvarnom vremenu preko označenih komunikacijskih sustava."
+      },
+      {
+        "akronim": "CNAME",
+        "puni_naziv": "Canonical name",
+        "definicija": "A host's official name as opposed to an alias. The official name is the first hostname listed for its Internet address in the hostname database.",
+        "definicija_hr": "Službeno ime hosta u odnosu na alias. Službeno ime je prvo ime hosta navedeno za njegovu internetsku adresu u bazi podataka imena hosta."
+      },
+      {
+        "akronim": "DHCP",
+        "puni_naziv": "Dynamic Host Configuration Protocol",
+        "definicija": "A network server uses this protocol to dynamically assign IP addresses to networked computers. The DHCP server waits for a computer to connect to it, then assigns it an IP address from a master list stored on the server.",
+        "definicija_hr": "Mrežni poslužitelj koristi ovaj protokol za dinamičko dodjeljivanje IP adresa računalima u mreži. DHCP poslužitelj čeka da se računalo poveže s njim, a zatim mu dodijeli IP adresu s glavne liste pohranjene na poslužitelju."
+      },
+      {
+        "akronim": "DNS",
+        "puni_naziv": "Domain Name Service / Server / System",
+        "definicija": "The way that Internet domain names are located and translated into IP addresses. A domain name is a meaningful and easy-to-remember 'handle' for an Internet address.",
+        "definicija_hr": "Način na koji se internetska imena domena lociraju i prevode u IP adrese. Ime domene je značenjski i lako zapamćeno 'ime' za internetsku adresu."
+      },
+      {
+        "akronim": "DSL",
+        "puni_naziv": "Digital Subscriber Line",
+        "definicija": "It is medium for transferring data over regular phone lines and can be used to connect to the Internet.",
+        "definicija_hr": "To je medij za prijenos podataka preko običnih telefonskih linija i može se koristiti za povezivanje na Internet."
+      },
+      {
+        "akronim": "EDI",
+        "puni_naziv": "Electronic Data Interchange",
+        "definicija": "The exchange of structured electronic data between computer systems according to predefined message standards.",
+        "definicija_hr": "Razmjena strukturiranih elektroničkih podataka između računalnih sustava prema unaprijed definiranim standardima poruka."
+      },
+      {
+        "akronim": "GPRS",
+        "puni_naziv": "General Packet Radio Service",
+        "definicija": "GPRS is a packet-oriented overlay to GSM networks supporting connection- and connectionless-oriented services and diverse quality-of-service mechanisms. The theoretical maximum speed is 171.2 Kbps, but real-life user throughput is expected to be 56 Kbps or less.",
+        "definicija_hr": "GPRS je paketni sloj koji se nadograđuje na GSM mreže i podržava usluge orijentirane na povezivanje i bez povezivanja, kao i razne mehanizme kvalitete usluge. Teorijska maksimalna brzina je 171,2 Kbps, ali stvarna brzina korisnika očekuje se da bude 56 Kbps ili manje."
+      },
+      {
+        "akronim": "GPS",
+        "puni_naziv": "Global Positioning System",
+        "definicija": "A satellite navigation system used to determine ground position and velocity (location, speed, and direction). Though it was created and originally used by the U.S. military, GPS is now available to the general public all over the world.",
+        "definicija_hr": "Satelitski navigacijski sustav koji se koristi za određivanje zemljopisne pozicije i brzine (lokacija, brzina i smjer). Iako je stvoren i prvotno korišten od strane američke vojske, GPS je sada dostupan široj javnosti diljem svijeta."
+      },
+      {
+        "akronim": "ICANN",
+        "puni_naziv": "Internet Corporation For Assigned Names and Numbers",
+        "definicija": "The ICANN is a non-profit corporation that is responsible for allocating IP addresses and managing the domain name system. Every computer connected to the Internet, from servers to home PCs, has an IP address.",
+        "definicija_hr": "ICANN je neprofitna organizacija odgovorna za dodjelu IP adresa i upravljanje sustavom imena domena. Svako računalo povezano na Internet, od poslužitelja do kućnih računala, ima IP adresu."
+      },
+      {
+        "akronim": "IMAP",
+        "puni_naziv": "Internet Message Access Protocol",
+        "definicija": "It is a method of accessing e-mail messages on a server without having to download them to your local hard drive. This is the main difference between IMAP and another popular e-mail protocol called 'POP3'. POP3 requires users to download messages to their hard drive before reading them. The advantage of using an IMAP mail server is that users can check their mail from multiple computers and always see the same messages.",
+        "definicija_hr": "To je metoda pristupa e-mail porukama na poslužitelju bez potrebe za preuzimanjem na lokalni tvrdi disk. Ovo je glavna razlika između IMAP-a i drugog popularnog e-mail protokola nazvanog 'POP3'. POP3 zahtijeva da korisnici preuzmu poruke na svoj tvrdi disk prije nego ih pročitaju. Prednost korištenja IMAP poslužitelja je što korisnici mogu provjeriti svoju poštu s više računala i uvijek vidjeti iste poruke."
+      }
+    ],
+    
+
+    "Upravljanje_podacima": [
+      {
+        "akronim": "BI",
+        "puni_naziv": "Business Intelligence",
+        "definicija": "Processes and tools used to collect, analyze and report on business data. Information provided by BI platforms can be used in decision-making for most functions within an organization.",
+        "definicija_hr": "Procesi i alati koji se koriste za prikupljanje, analizu i izvještavanje o poslovnim podacima. Informacije koje pružaju BI platforme mogu se koristiti u donošenju odluka za većinu funkcija unutar organizacije."
+      },
+      {
+        "akronim": "BLOB",
+        "puni_naziv": "Binary Large Object",
+        "definicija": "Collection of concentrated data that's stored on a file in a database or on a specific program.",
+        "definicija_hr": "Skup koncentriranih podataka pohranjenih u datoteci u bazi podataka ili na specifičnom programu."
+      },
+      {
+        "akronim": "CRM",
+        "puni_naziv": "Customer Relationship Management",
+        "definicija": "CRM solutions enable organizations to manage the processes that provide services to customers. This often involves the use of CRM databases that store key customer information.",
+        "definicija_hr": "CRM rješenja omogućuju organizacijama upravljanje procesima koji pružaju usluge kupcima. To često uključuje korištenje CRM baza podataka koje pohranjuju ključne informacije o kupcima."
+      },
+      {
+        "akronim": "DB",
+        "puni_naziv": "DataBase",
+        "definicija": "A collection of data organized in a structured manner so that information can be readily retrieved.",
+        "definicija_hr": "Skup podataka organiziran na strukturirani način kako bi se informacije mogle brzo dohvatiti."
+      },
+      {
+        "akronim": "DBA",
+        "puni_naziv": "Database Management System",
+        "definicija": "In short, a DBMS is a database program. Technically speaking, it is a software system that uses a standard method of cataloging, retrieving, and running queries on data. The DBMS manages incoming data, organizes it, and provides ways for the data to be modified or extracted by users or other programs.",
+        "definicija_hr": "Ukratko, DBMS je program za upravljanje bazama podataka. Tehnički gledano, to je softverski sustav koji koristi standardnu metodu katalogiziranja, dohvaćanja i izvođenja upita na podatke. DBMS upravlja dolaznim podacima, organizira ih i omogućava korisnicima ili drugim programima da modificiraju ili izdvoje podatke."
+      },
+      {
+        "akronim": "DBMS",
+        "puni_naziv": "DataBase Administrator",
+        "definicija": "DBA is responsible for maintaining, securing, and operating databases and also ensures that data is correctly stored and retrieved.",
+        "definicija_hr": "DBA je odgovoran za održavanje, sigurnost i rad baza podataka te osigurava da se podaci ispravno pohranjuju i dohvaćaju."
+      },
+      {
+        "akronim": "DDL",
+        "puni_naziv": "Data Definition Language",
+        "definicija": "A language for describing data and its relationships in a database.",
+        "definicija_hr": "Jezik za opisivanje podataka i njihovih odnosa u bazi podataka."
+      },
+      {
+        "akronim": "DML",
+        "puni_naziv": "Data Manipulation Language",
+        "definicija": "A family of computer languages used by computer programs or database users to retrieve, insert, delete and update data in a database. The currently most popular Data manipulation language is that of SQL, which is used to retrieve and manipulate data in a Relational database.",
+        "definicija_hr": "Skup računalnih jezika koji koriste računalni programi ili korisnici baza podataka za dohvat, unos, brisanje i ažuriranje podataka u bazi podataka. Trenutno najpopularniji jezik za manipulaciju podacima je SQL, koji se koristi za dohvat i manipulaciju podacima u relacijskim bazama podataka."
+      },
+      {
+        "akronim": "ERP",
+        "puni_naziv": "Enterprise Resource Planning",
+        "definicija": "Applications represent the core business applications of most enterprises. These applications encompass management and administrative functions, including financial management and HR, as well as components for managing revenue activities and expenditures and operations.",
+        "definicija_hr": "Aplikacije predstavljaju osnovne poslovne aplikacije većine poduzeća. Ove aplikacije obuhvaćaju funkcije upravljanja i administracije, uključujući financijsko upravljanje i ljudske resurse, kao i komponente za upravljanje prihodovnim aktivnostima, rashodima i operacijama."
+      },
+      {
+        "akronim": "ETL",
+        "puni_naziv": "Extract, Transform, Load",
+        "definicija": "ETL is the process of taking data from one database and adding it to another database — retrieving and manipulating data so that the receiving database can successfully handle the data.",
+        "definicija_hr": "ETL je proces uzimanja podataka iz jedne baze podataka i dodavanja u drugu bazu podataka — dohvaćanje i manipulacija podacima kako bi primateljska baza podataka mogla uspješno obraditi podatke."
+      },
+      {
+        "akronim": "FIFO",
+        "puni_naziv": "First In, First Out",
+        "definicija": "A network queuing method, wherein data packets are dealt with in a simple queue on a first-come, first-served basis. No packets are given preferential treatment; all are queued in the order in which they are received.",
+        "definicija_hr": "Metoda umrežavanja za redoslijed paketa podataka, gdje se podaci obrađuju u jednostavnom redu na temelju principa prvi dođe, prvi se poslužuje. Niti jedan paket nije privilegiran; svi paketi su u redu prema redoslijedu u kojem su zaprimljeni."
+      },
+      {
+        "akronim": "JDBC",
+        "puni_naziv": "Java DataBase Connectivity",
+        "definicija": "An application program interface specification for connecting programs written in Java to the data in a database. It is a Java API that enables Java programs to execute SQL statements and interact with any SQL-compliant database.",
+        "definicija_hr": "Specifikacija programske aplikacije za povezivanje programa napisanih u Javi s podacima u bazi podataka. To je Java API koji omogućava Java programima izvršavanje SQL naredbi i interakciju s bilo kojom bazom podataka koja podržava SQL."
+      },
+      {
+        "akronim": "KPI",
+        "puni_naziv": "Key Performance Indicator",
+        "definicija": "A quantifiable measure of performance over time for a specific objective.",
+        "definicija_hr": "Mjera izvedbe koja se može kvantificirati tijekom vremena za specifičan cilj."
+      },
+      {
+        "akronim": "LIFO",
+        "puni_naziv": "Last In, First Out",
+        "definicija": "A type of message queuing that puts the last message received first in line.",
+        "definicija_hr": "Vrsta umrežavanja poruka koja stavlja posljednju primljenu poruku prvu u red."
+      },
+      {
+        "akronim": "MDM",
+        "puni_naziv": "Master Data Management",
+        "definicija": "Involves creating a single master record for each person, place, or thing in a business, from across internal and external data sources and applications.",
+        "definicija_hr": "Uključuje stvaranje jedinstvenog glavnog zapisa za svaku osobu, mjesto ili predmet u poslovanju, koristeći interne i eksterne izvore podataka i aplikacije."
+      },
+      {
+        "akronim": "MSP",
+        "puni_naziv": "Managed Service Provider",
+        "definicija": "MSP is an outsourced third-party company that takes on the ongoing, day-to-day responsibilities, monitoring, and maintenance of a range of tasks and functions for another company – their customer.",
+        "definicija_hr": "MSP je vanjska treća strana koja preuzima kontinuirane, svakodnevne odgovornosti, praćenje i održavanje niza zadataka i funkcija za drugu tvrtku — svog klijenta."
+      },
+      {
+        "akronim": "ODBC",
+        "puni_naziv": "Open Database Connectivity",
+        "definicija": "With all the different types of databases available, such as Microsoft Access, Filemaker, and MySQL, it is important to have a standard way of transferring data to and from each kind of database.",
+        "definicija_hr": "S obzirom na različite vrste baza podataka dostupnih, poput Microsoft Accessa, Filemakera i MySQL-a, važno je imati standardni način prijenosa podataka u i iz svake vrste baze podataka."
+      },
+      {
+        "akronim": "OLAP",
+        "puni_naziv": "Online Analytical Processing",
+        "definicija": "A category of business intelligence tools used to analyze data. OLAP tools are client- and server-based analysis tools that originally were based on multidimensional databases but today can be based on relational databases, most often overlaid by an indexing or mapping scheme that emulates an MDDB.",
+        "definicija_hr": "Kategorija alata poslovne inteligencije koji se koriste za analizu podataka. OLAP alati su klijentski i serverski alati za analizu koji su prvobitno temeljeni na multidimenzionalnim bazama podataka, ali danas se mogu temeljiti na relacijskim bazama podataka, najčešće uz pomoć indeksa ili sheme mapiranja koja emulira MDDB."
+      },
+      {
+        "akronim": "OLTP",
+        "puni_naziv": "Online Transaction Processing",
+        "definicija": "OLTP refers to software programs that support transactions over the internet, including data entry, order entry, financial transactions, etc.",
+        "definicija_hr": "OLTP se odnosi na softverske programe koji podržavaju transakcije putem interneta, uključujući unos podataka, unos narudžbi, financijske transakcije itd."
+      },
+      {
+        "akronim": "PSA",
+        "puni_naziv": "Professional Service Automation",
+        "definicija": "PSA refers to the automated management of core business processes by professional services organizations in management consultancies, software, cyber security, financial services, internet information services, and other services providers.",
+        "definicija_hr": "PSA se odnosi na automatizirano upravljanje temeljnim poslovnim procesima od strane organizacija koje pružaju profesionalne usluge, kao što su savjetodavne usluge, softver, kibernetička sigurnost, financijske usluge, internetske informacijske usluge i drugi pružatelji usluga."
+      },
+      {
+        "akronim": "RDBMS",
+        "puni_naziv": "Relational Database Management System",
+        "definicija": "RDBMS is a program that lets you create, update, and administer a relational database.",
+        "definicija_hr": "RDBMS je program koji vam omogućuje kreiranje, ažuriranje i upravljanje relacijskom bazom podataka."
+      },
+      {
+        "akronim": "SPSS",
+        "puni_naziv": "Statistical Package for the Social Sciences",
+        "definicija": "A statistical analysis software package invented in 1968, which became the founding product of Chicago-based analytical-software firm SPSS, Inc., acquired by IBM.",
+        "definicija_hr": "Softverski paket za statističku analizu izumljen 1968. godine, koji je postao temeljni proizvod analitičkog softverskog poduzeća SPSS, Inc., sa sjedištem u Chicagu, a kasnije kupljen od strane IBM-a."
+      },
+      {
+        "akronim": "SQL",
+        "puni_naziv": "Structured Query Language",
+        "definicija": "SQL is a standardized query language for requesting information from a database.",
+        "definicija_hr": "SQL je standardizirani jezik upita za zahtjev podataka iz baze podataka."
+      },
+      {
+        "akronim": "UEM",
+        "puni_naziv": "Unified Endpoint Management",
+        "definicija": "UEM is a class of software tools that provide a single management interface for mobile, PC and other devices. It provides capabilities for managing and securing mobile applications, content, collaboration and more.",
+        "definicija_hr": "UEM je klasa softverskih alata koji pružaju jedinstveno sučelje za upravljanje mobilnim uređajima, računalima i drugim uređajima. Omogućava upravljanje i sigurnost mobilnih aplikacija, sadržaja, suradnje i više."
+      },
+      {
+        "akronim": "XLS",
+        "puni_naziv": "eXceL Spreadsheet",
+        "definicija": "Microsoft Excel File name extension.",
+        "definicija_hr": "Naziv ekstenzije Microsoft Excel datoteke."
+      }
+    ],
+   
+
+    "Operativni_sustav_i_hardver": [
+      {
+        "akronim": "AHCI",
+        "puni_naziv": "Advanced Host Controller Interface",
+        "definicija": "An interface specification that allows the storage driver to enable advanced SATA features such as Native Command Queuing and hot plug.",
+        "definicija_hr": "Specifikacija sučelja koja omogućuje upravljaču za pohranu aktiviranje naprednih SATA značajki poput Native Command Queuing i hot plug-a."
+      },
+      {
+        "akronim": "AIX",
+        "puni_naziv": "Advanced Interactive Executive",
+        "definicija": "AIX is an operating system developed by IBM and is in fact Unix-based.",
+        "definicija_hr": "AIX je operacijski sustav razvijen od strane IBM-a, a zapravo se temelji na Unixu."
+      },
+      {
+        "akronim": "ASIC",
+        "puni_naziv": "Application Specific Integrated Circuit",
+        "definicija": "A custom-designed chip built for a specific use or application. It helps achieve blazing speed and unparalleled efficiency compared to the versatile CPUs and GPUs typically used.",
+        "definicija_hr": "Prilagođeni čip dizajniran za specifičnu upotrebu ili primjenu. Pomaže u postizanju iznimne brzine i nenadmašne učinkovitosti u usporedbi s svestranim CPU-ima i GPU-ima koji se obično koriste."
+      },
+      {
+        "akronim": "BIOS",
+        "puni_naziv": "Basic Input/Output System",
+        "definicija": "A fundamental element of PCs and other computers. It is a kind of built-in software that determines what a computer can do without accessing programs from a disk.",
+        "definicija_hr": "Temeljni element osobnih računala i drugih vrsta računala. To je vrsta ugrađenog softvera koji određuje što računalo može učiniti bez pristupa programima s diska."
+      },
+      {
+        "akronim": "CDROM",
+        "puni_naziv": "Compact Disc Read-Only Memory",
+        "definicija": "A version of the standard CD intended to store general-purpose digital data. CD-ROMs can store a wide variety of data, such as music, video and graphics.",
+        "definicija_hr": "Verzija standardnog CD-a namijenjena pohrani digitalnih podataka opće namjene. CD-ROM-ovi mogu pohranjivati razne vrste podataka, poput glazbe, videozapisa i grafike."
+      },
+      {
+        "akronim": "CPU",
+        "puni_naziv": "Central Processing Unit",
+        "definicija": "The CPU controls the computer, runs all the programs on the computer and processes all of the data and can be thought of as the 'brain' of the computer.",
+        "definicija_hr": "CPU upravlja računalom, pokreće sve programe i obrađuje sve podatke te se može smatrati 'mozgom' računala."
+      },
+      {
+        "akronim": "DOS",
+        "puni_naziv": "Disk Operating System",
+        "definicija": "A command-driven PC OS that resides in main memory and uses disks for data storage. It was once the standard OS for IBM-compatible PCs. Early versions of Microsoft Windows ran on top of DOS.",
+        "definicija_hr": "Operativni sustav temeljen na naredbama koji se nalazi u glavnoj memoriji računala i koristi diskove za pohranu podataka. Nekada je bio standardni operativni sustav za IBM-kompatibilna računala. Rane verzije Microsoft Windowsa radile su na DOS-u."
+      },
+      {
+        "akronim": "FAT",
+        "puni_naziv": "File Allocation Table",
+        "definicija": "An index for mapping logical files to physical locations on a disk storage device. Each FAT entry is 16- or 32-bits long (depending on whether it is FAT16 or FAT32).",
+        "definicija_hr": "Indeks za mapiranje logičkih datoteka na fizičke lokacije na uređaju za pohranu podataka. Svaki FAT unos dugačak je 16 ili 32 bita (ovisno o tome je li FAT16 ili FAT32)."
+      },
+      {
+        "akronim": "GDI",
+        "puni_naziv": "Graphics Device Interface",
+        "definicija": "GDI provides a common set of drawing routines (including both text and graphics). The GDI can be used to draw to most devices, such as screens, printers, plotters or bitmap images. Central to the GDI is the concept of a Device Context (DC) which is a handle to the specific device to be written to.",
+        "definicija_hr": "GDI pruža skup standardnih funkcija za crtanje (uključujući tekst i grafiku). Može se koristiti za iscrtavanje na većinu uređaja, poput zaslona, pisača, ploter uređaja ili bitmap slika. Ključni koncept GDI-ja je 'Device Context' (DC), koji predstavlja poveznicu na određeni uređaj na koji se ispisuje."
+      },
+      {
+        "akronim": "GPU",
+        "puni_naziv": "Graphics Processing Unit",
+        "definicija": "Like the CPU (Central Processing Unit), it is a single-chip processor. However, the GPU is used primarily for computing 3D functions.",
+        "definicija_hr": "Poput CPU-a (Central Processing Unit), to je procesor na jednom čipu. Međutim, GPU se prvenstveno koristi za računanje 3D funkcija."
+      },
+      {
+        "akronim": "GZIP",
+        "puni_naziv": "GNU zip",
+        "definicija": "A GNU free software file compression program. It was created by Jean-loup Gailly and Mark Adler. gzip is based on the DEFLATE algorithm, which is a combination of LZ77 and Huffman coding.",
+        "definicija_hr": "GNU-ov besplatni program za kompresiju datoteka. Stvorili su ga Jean-loup Gailly i Mark Adler. gzip je temeljen na DEFLATE algoritmu, koji kombinira LZ77 i Huffmanovo kodiranje."
+      },
+      {
+        "akronim": "HDD",
+        "puni_naziv": "Hard Disk Drive",
+        "definicija": "HDD is a type of data storage device that is used in laptops and desktop computers.",
+        "definicija_hr": "HDD je vrsta uređaja za pohranu podataka koji se koristi u prijenosnim i stolnim računalima."
+      },
+      {
+        "akronim": "HDMI",
+        "puni_naziv": "High-Definition Multimedia Interface",
+        "definicija": "HDMI is a digital interface whose purpose is to permit the transmission of audio and video signals through a single cable, while supporting faster data rates than its normal counterparts.",
+        "definicija_hr": "HDMI je digitalno sučelje čija je svrha omogućiti prijenos audio i video signala putem jednog kabela, uz podršku većih brzina prijenosa podataka od standardnih sučelja."
+      },
+      {
+        "akronim": "I/O",
+        "puni_naziv": "Input/Output",
+        "definicija": "The communication between an information processing system, such as a computer, and the outside world, such as another computer system, peripherals, or a human operator.",
+        "definicija_hr": "Komunikacija između sustava za obradu informacija, kao što je računalo, i vanjskog svijeta, poput drugog računalnog sustava, perifernih uređaja ili ljudskog operatera."
+      },
+      {
+        "akronim": "IBM",
+        "puni_naziv": "International Business Machines",
+        "definicija": "Known informally as 'Big Blue', IBM is one of the largest, most well-known corporations that designs and manufactures computer systems, software, networking systems, storage devices, and microelectronics.",
+        "definicija_hr": "IBM, poznat i kao 'Big Blue', jedna je od najvećih i najpoznatijih korporacija koja dizajnira i proizvodi računalne sustave, softver, mrežne sustave, uređaje za pohranu podataka i mikroelektroniku."
+      },
+      {
+        "akronim": "IC",
+        "puni_naziv": "Integrated Circuit",
+        "definicija": "An electronic circuit formed on a small piece of semiconducting material, which performs the same function as a larger circuit made from discrete components.",
+        "definicija_hr": "Elektronički krug oblikovan na malom komadiću poluvodičkog materijala, koji obavlja istu funkciju kao veći krug napravljen od diskretnih komponenti."
+      },
+      {
+        "akronim": "IOS",
+        "puni_naziv": "iPhone OS",
+        "definicija": "iOS (previously iPhone OS) is a mobile operating system developed by Apple Inc. and distributed exclusively for Apple hardware. It is the operating system that powers many of the company's iDevices.",
+        "definicija_hr": "iOS (prethodno iPhone OS) je mobilni operacijski sustav razvijen od strane Apple Inc. i distribuiran isključivo za Apple hardver. To je operacijski sustav koji pokreće mnoge Apple-ove iDevice uređaje."
+      },
+      {
+        "akronim": "KB",
+        "puni_naziv": "Kilobyte",
+        "definicija": "One thousand bytes (10x3) or 1024 (210) bytes. A unit of measurement used for computer file sizes.",
+        "definicija_hr": "Tisuću bajtova (10x3) ili 1024 (210) bajtova. Jedinica mjere koja se koristi za veličinu računalnih datoteka."
+      },
+      {
+        "akronim": "KIB",
+        "puni_naziv": "Kibibyte",
+        "definicija": "1024 bytes.",
+        "definicija_hr": "1024 bajta."
+      },
+      {
+        "akronim": "LED",
+        "puni_naziv": "Light-emitting diode",
+        "definicija": "A semiconductor that produces light when activated.",
+        "definicija_hr": "Poluvodič koji proizvodi svjetlost kada je aktiviran."
+      },
+      {
+        "akronim": "MODEM",
+        "puni_naziv": "Modulator-Demodulator",
+        "definicija": "A modem is a conversion device that allows a computer to transmit information over analog communication lines (for example, traditional phone lines) by converting information that is digitally stored on the computer into transmission signals.",
+        "definicija_hr": "Modem je uređaj za konverziju koji omogućuje računalu prijenos informacija preko analognih komunikacijskih linija (na primjer, tradicionalnih telefonskih linija) pretvaranjem digitalnih podataka pohranjenih na računalu u prijenosne signale."
+      },
+      {
+        "akronim": "NT",
+        "puni_naziv": "New Technology",
+        "definicija": "Specifically refers to Microsoft's Windows NT 3.5 and NT 4 Windows operating systems. Later versions of Windows are built on NT, which is why references to NT remain in later versions of Windows.",
+        "definicija_hr": "Posebno se odnosi na Microsoftove operativne sustave Windows NT 3.5 i NT 4. Kasnije verzije Windowsa temelje se na NT-u, zbog čega se NT spominje i u novijim verzijama."
+      },
+      {
+        "akronim": "NTFS",
+        "puni_naziv": "New Technology File System",
+        "definicija": "The NTFS file system used in Windows NT, Windows 2000 and Windows Server 2003. NTFS file system allows permissions to be assigned to individual files and folders.",
+        "definicija_hr": "NTFS datotečni sustav koji se koristi u Windows NT, Windows 2000 i Windows Server 2003. NTFS omogućuje dodjeljivanje dozvola za pojedinačne datoteke i mape."
+      },
+      {
+        "akronim": "OLE",
+        "puni_naziv": "Object Linking and Embedding",
+        "definicija": "A Microsoft protocol that enables creation of compound documents with embedded links to applications, so that a user does not have to switch from one application to another to make revisions.",
+        "definicija_hr": "Microsoftov protokol koji omogućuje izradu složenih dokumenata s ugrađenim poveznicama na aplikacije, tako da korisnik ne mora mijenjati aplikacije za izvršavanje izmjena."
+      },
+      {
+        "akronim": "OS",
+        "puni_naziv": "Operating System",
+        "definicija": "The program that, after being initially loaded into the computer by a boot program, manages all the other application programs in a computer.",
+        "definicija_hr": "Program koji, nakon što se učita u računalo pomoću boot programa, upravlja svim ostalim aplikacijama u računalu."
+      },
+      {
+        "akronim": "PSU",
+        "puni_naziv": "Power Supply Unit",
+        "definicija": "PSU is an internal IT hardware component. Despite the name, Power Supply Units (PSU) do not supply systems with power - instead they convert it.",
+        "definicija_hr": "PSU je unutarnja IT komponenta. Unatoč nazivu, jedinice napajanja (PSU) ne isporučuju energiju sustavu, već je konvertiraju u odgovarajući oblik."
+      },
+      {
+        "akronim": "RAID",
+        "puni_naziv": "Redundant Array of Independent Disks",
+        "definicija": "RAID is a method of storing data on multiple hard disks. When disks are arranged in a RAID configuration, the computer sees them all as one large disk. However, they operate much more efficiently than a single hard drive.",
+        "definicija_hr": "RAID je metoda pohrane podataka na više tvrdih diskova. Kada su diskovi konfigurirani u RAID-u, računalo ih vidi kao jedan veliki disk. Međutim, oni rade učinkovitije od jednog tvrdog diska."
+      },
+      {
+        "akronim": "RAM",
+        "puni_naziv": "Random Access Memory",
+        "definicija": "RAM is the storage medium used within the computer to store programs and data while the computer is switched on and running. Once the power to the computer is switched off, any programs or data not saved to the Hard Disk Drive will be lost permanently.",
+        "definicija_hr": "RAM je memorija koju računalo koristi za pohranu programa i podataka dok je računalo uključeno i radi. Nakon isključivanja računala, svi podaci koji nisu spremljeni na tvrdi disk trajno se gube."
+      },
+      {
+        "akronim": "ROM",
+        "puni_naziv": "Read-Only Memory",
+        "definicija": "A type of non-volatile memory used in computers and other electronic devices.",
+        "definicija_hr": "Vrsta nehlapljive memorije koja se koristi u računalima i drugim elektroničkim uređajima."
+      },
+      {
+        "akronim": "RTOS",
+        "puni_naziv": "Real Time Operating System",
+        "definicija": "An operating system with two key features: predictability and determinism.",
+        "definicija_hr": "Operativni sustav s dvije ključne značajke: predvidljivošću i determinističkim ponašanjem."
+      },
+      {
+        "akronim": "SCSI",
+        "puni_naziv": "Small Computer System Interface",
+        "definicija": "An ANSI-standard electronic interface that allows personal computers to communicate with peripheral hardware.",
+        "definicija_hr": "ANSI-standardizirano elektroničko sučelje koje omogućuje osobnim računalima komunikaciju s perifernim uređajima."
+      },
+      {
+        "akronim": "SSD",
+        "puni_naziv": "Solid-State Drive",
+        "definicija": "A data storage device that uses solid-state memory to store persistent data.",
+        "definicija_hr": "Uređaj za pohranu podataka koji koristi solid-state memoriju za pohranu trajnih podataka."
+      },
+      {
+        "akronim": "UPS",
+        "puni_naziv": "Uninterruptible Power Supply",
+        "definicija": "In the technology world, UPS is more than just a brown shipping company. It is also a type of power supply that uses battery backup to maintain power during unexpected power outages.",
+        "definicija_hr": "U tehnološkom kontekstu, UPS nije samo tvrtka za dostavu paketa. To je i vrsta napajanja koja koristi baterijsku rezervu kako bi održala napajanje tijekom neočekivanih prekida struje."
+      },
+      {
+        "akronim": "USB",
+        "puni_naziv": "Universal Serial Bus",
+        "definicija": "An external bus standard that supports data transfer rates of 12 Mbps.",
+        "definicija_hr": "Vanjski standard sabirnice koji podržava brzine prijenosa podataka do 12 Mbps."
+      }
+    ],
+
+
+    "Sigurnost_standardi_i_protokoli": [
+      {
+        "akronim": "AES",
+        "puni_naziv": "Advanced Encryption Standard",
+        "definicija": "A specification for the encryption of electronic data. It is a symmetric-key algorithm, using the same key for encrypting and decrypting the data.",
+        "definicija_hr": "Specifikacija za šifriranje elektroničkih podataka. To je algoritam simetričnog ključa, koji koristi isti ključ za šifriranje i dešifriranje podataka."
+      },
+      {
+        "akronim": "ANSI",
+        "puni_naziv": "American National Standards Institute",
+        "definicija": "The main industrial standardization organization in the United States. There are official ANSI standards in almost all industries, and many of them have to do with computers.",
+        "definicija_hr": "Glavna organizacija za industrijsku standardizaciju u Sjedinjenim Američkim Državama. Postoje službeni ANSI standardi u gotovo svim industrijama, a mnogi su povezani s računalima."
+      },
+      {
+        "akronim": "AS2",
+        "puni_naziv": "Application Statement 2",
+        "definicija": "Widely-used specification for securely transporting Electronic Data Interchange (EDI) data over the internet, employing HTTPS and S/MIME encryption for reliable and secure B2B data exchanges.",
+        "definicija_hr": "Široko korištena specifikacija za siguran prijenos podataka elektroničke razmjene podataka (EDI) putem interneta, koja koristi HTTPS i S/MIME šifriranje za pouzdanu i sigurnu B2B razmjenu podataka."
+      },
+      {
+        "akronim": "ASCII",
+        "puni_naziv": "American Standard Code for Information Interchange",
+        "definicija": "Pronounced as-kee, standard way of encoding characters into digital codes. An ASCII file is taken to mean a text file containing unformatted text that is, characters but not information about fonts, sizes and so on.",
+        "definicija_hr": "Izgovara se 'aski', standardni način kodiranja znakova u digitalne kodove. ASCII datoteka označava tekstualnu datoteku koja sadrži neformatirani tekst, odnosno znakove, ali ne i informacije o fontovima, veličinama i slično."
+      },
+      {
+        "akronim": "BSA",
+        "puni_naziv": "Business Software Alliance",
+        "definicija": "A software industry coalition whose stated missions include industry education and copyright enforcement.",
+        "definicija_hr": "Koalicija softverske industrije čije misije uključuju edukaciju o industriji i provođenje zaštite autorskih prava."
+      },
+      {
+        "akronim": "BYOD",
+        "puni_naziv": "Bring Your Own Device",
+        "definicija": "A type of VoIP subscription. Subscribers who have their own VoIP device (a SIP-capable device) when signing up for a VoIP service will usually be able to take advantage of a cheaper subscription plan.",
+        "definicija_hr": "Vrsta VoIP pretplate. Pretplatnici koji imaju vlastiti VoIP uređaj (uređaj kompatibilan sa SIP-om) prilikom prijave na VoIP uslugu obično mogu iskoristiti povoljniji pretplatnički plan."
+      },
+      {
+        "akronim": "CRLF",
+        "puni_naziv": "Carriage Return, Line Feed",
+        "definicija": "A pair of ASCII codes, 13 and 10, that tell a terminal or printer to return to the beginning of the line and advance to the next line.",
+        "definicija_hr": "Par ASCII kodova, 13 i 10, koji terminalu ili pisaču daju naredbu da se vrati na početak retka i prijeđe na sljedeći redak."
+      },
+      {
+        "akronim": "DARPA",
+        "puni_naziv": "Defense Advanced Research Projects Agency",
+        "definicija": "The progenitor of the Internet. DARPA is where it all began.",
+        "definicija_hr": "Agencija koja je zaslužna za razvoj interneta. DARPA je mjesto gdje je sve počelo."
+      },
+      {
+        "akronim": "DAM",
+        "puni_naziv": "Database Activity Monitoring",
+        "definicija": "Database security technology for monitoring and database analytics.",
+        "definicija_hr": "Sigurnosna tehnologija za nadzor aktivnosti baza podataka i analizu podataka."
+      },
+      {
+        "akronim": "DES",
+        "puni_naziv": "Data Encryption Standard",
+        "definicija": "Widely used symmetric key encryption algorithm that was developed by IBM in the early 1970s.",
+        "definicija_hr": "Široko korišten algoritam simetričnog ključa za šifriranje podataka koji je razvila tvrtka IBM početkom 1970-ih."
+      },
+      {
+        "akronim": "DOS",
+        "puni_naziv": "Denial of Service",
+        "definicija": "The inability of a Web site or other server to respond to legitimate connections. DoS attacks are used to block access to a target Internet site.",
+        "definicija_hr": "Nemogućnost web stranice ili drugog poslužitelja da odgovori na legitimne zahtjeve. DoS napadi koriste se za blokiranje pristupa ciljanoj internetskoj stranici."
+      },
+      {
+        "akronim": "EDR",
+        "puni_naziv": "Endpoint Detection and Response",
+        "definicija": "ETDR is an integrated endpoint security solution that combines real-time continuous monitoring and collection of endpoint data with rules-based automated response and analysis capabilities.",
+        "definicija_hr": "EDR je integrirano sigurnosno rješenje za krajnje točke koje kombinira kontinuirano praćenje u stvarnom vremenu i prikupljanje podataka s krajnjih točaka s automatiziranim odgovorima i analizom temeljenom na pravilima."
+      },
+      {
+        "akronim": "FTP",
+        "puni_naziv": "File Transfer Protocol",
+        "definicija": "A TCP/IP standard used to log onto a network, list directories and copy files. FTP authenticates users and allows them to transfer files, list directories, delete and rename files on a remote host, and perform wild-card transfers.",
+        "definicija_hr": "TCP/IP standard koji se koristi za prijavu na mrežu, pregled direktorija i prijenos datoteka. FTP autentificira korisnike i omogućuje im prijenos datoteka, pregled direktorija, brisanje i preimenovanje datoteka na udaljenom poslužitelju te prijenose pomoću zamjenskih znakova."
+      },
+      {
+        "akronim": "HTTP",
+        "puni_naziv": "HyperText Transport Protocol",
+        "definicija": "The protocol for moving hypertext files across the internet. Requires an HTTP client program on one end, and an HTTP server program on the other end. HTTP is the most important protocol used in the world wide web (WWW).",
+        "definicija_hr": "Protokol za prijenos hipertekstualnih datoteka preko interneta. Zahtijeva HTTP klijentski program na jednoj strani i HTTP poslužiteljski program na drugoj strani. HTTP je najvažniji protokol koji se koristi na svjetskoj mreži (WWW)."
+      },
+      {
+        "akronim": "HTTPS",
+        "puni_naziv": "Secured HTTP or HTTP Secure",
+        "definicija": "An Internet protocol that is used by Web servers and Web browsers to transfer and display hypermedia documents securely across the Internet.",
+        "definicija_hr": "Internetski protokol koji koriste web poslužitelji i web preglednici za siguran prijenos i prikaz hipermedijskih dokumenata preko interneta."
+      },
+      {
+        "akronim": "IaaS",
+        "puni_naziv": "Infrastructure as a Service",
+        "definicija": "IaaS vendors provide cloud-based infrastructure often through a pay-as-you-go subscription model. IaaS hardware and software are owned by the service provider and can be hosted by the service provider or on-premises.",
+        "definicija_hr": "IaaS pružatelji nude infrastrukturu temeljenu na oblaku, često putem pretplatničkog modela 'plati koliko koristiš'. Hardver i softver IaaS-a u vlasništvu su pružatelja usluge i mogu biti hostirani kod pružatelja usluge ili lokalno."
+      },
+      {
+        "akronim": "IEEE",
+        "puni_naziv": "Institute of Electrical and Electronics Engineers",
+        "definicija": "An organization of engineers, scientists and students involved in electrical, electronics and related fields. IEEE 802 standard is the most widely recognized in the computer industry.",
+        "definicija_hr": "Organizacija inženjera, znanstvenika i studenata koji se bave elektrotehnikom, elektronikom i srodnim područjima. IEEE 802 standard je jedan od najpriznatijih u računalnoj industriji."
+      },
+      {
+        "akronim": "IDS",
+        "puni_naziv": "Intrusion Detection System",
+        "definicija": "IDS is a network security tool that monitors network traffic and devices for known malicious activity, suspicious activity or security policy violations.",
+        "definicija_hr": "IDS je alat za sigurnost mreže koji nadzire mrežni promet i uređaje radi otkrivanja poznatih zlonamjernih aktivnosti, sumnjivih aktivnosti ili kršenja sigurnosnih pravila."
+      },
+      {
+        "akronim": "IP",
+        "puni_naziv": "Internet Protocol",
+        "definicija": "The basic underlying protocol of the Internet, originally developed during a 15-year period under the auspices of the U.S. Department of Defense. Used in conjunction with TCP, it provides a common address system and communications protocol to track the addresses of network nodes, route outgoing messages and recognize incoming ones.",
+        "definicija_hr": "Osnovni temeljni protokol interneta, razvijen tijekom 15 godina pod pokroviteljstvom Ministarstva obrane SAD-a. Koristi se zajedno s TCP-om te pruža sustav adresa i komunikacijski protokol za praćenje adresa mrežnih čvorova, usmjeravanje odlaznih poruka i prepoznavanje dolaznih."
+      },
+      {
+        "akronim": "IRC",
+        "puni_naziv": "Internet Relay Chat",
+        "definicija": "Basically a huge multi-user live chat facility. There are a number of major IRC servers around the world which are linked to each other. Anyone can create a channel and anything that anyone types in a given channel is seen by all others in the channel.",
+        "definicija_hr": "U osnovi, velika platforma za razgovor u stvarnom vremenu s više korisnika. Postoji niz velikih IRC poslužitelja širom svijeta koji su međusobno povezani. Svaki korisnik može stvoriti kanal, a sve što se napiše u određenom kanalu vide svi korisnici tog kanala."
+      },
+      {
+        "akronim": "ISO",
+        "puni_naziv": "International Organization for Standardization",
+        "definicija": "ISO followed by a number is used to identify one of the published ISO standards.",
+        "definicija_hr": "ISO, uz koji se nalazi broj, koristi se za identifikaciju jednog od objavljenih ISO standarda."
+      },
+      {
+        "akronim": "LDAP",
+        "puni_naziv": "Lightweight Directory Access Protocol",
+        "definicija": "If you want to make directory information available over the Internet, this is the way to do it. LDAP is a streamlined version of an earlier directory standard called X.500. What makes LDAP so useful is that it works great over TCP/IP networks, so information can be accessed through LDAP by anyone with an Internet connection.",
+        "definicija_hr": "Ako želite omogućiti pristup informacijama u direktoriju putem interneta, LDAP je pravi način za to. LDAP je pojednostavljena verzija starijeg standarda imenika nazvanog X.500. Ono što LDAP čini korisnim je to što izvrsno radi na TCP/IP mrežama, omogućujući pristup informacijama bilo kojem korisniku s internetskom vezom."
+      },
+      {
+        "akronim": "RMM",
+        "puni_naziv": "Remote Monitoring and Management",
+        "definicija": "RMM is a process designed to help managed IT service providers (MSPs) remotely and proactively monitor client endpoints, networks, and computers. RMM can also be referred to by other names like remote IT management or network management.",
+        "definicija_hr": "RMM je proces osmišljen kako bi pomogao pružateljima upravljanih IT usluga (MSP-ovima) da daljinski i proaktivno nadziru krajnje točke klijenata, mreže i računala. RMM se može nazivati i drugim imenima, poput daljinskog upravljanja IT-om ili upravljanja mrežom."
+      },
+      {
+        "akronim": "SIEM",
+        "puni_naziv": "Security Information and Event Management",
+        "definicija": "SIEM technology supports threat detection, compliance and security incident management through the collection and analysis (both near real time and historical) of security events, as well as a wide variety of other event and contextual data sources.",
+        "definicija_hr": "SIEM tehnologija podržava otkrivanje prijetnji, usklađenost i upravljanje sigurnosnim incidentima kroz prikupljanje i analizu (u stvarnom vremenu i povijesnu) sigurnosnih događaja, kao i širok raspon drugih izvora podataka i kontekstualnih informacija."
+      },
+      {
+        "akronim": "SNMP",
+        "puni_naziv": "Simple Network Management Protocol",
+        "definicija": "An Internet Standard protocol for collecting and organizing information about managed devices on IP networks and for modifying that information to change device behavior.",
+        "definicija_hr": "Internetski standardni protokol za prikupljanje i organizaciju informacija o upravljanim uređajima na IP mrežama te za izmjenu tih informacija radi promjene ponašanja uređaja."
+      },
+      {
+        "akronim": "SSH",
+        "puni_naziv": "Secure Shell",
+        "definicija": "A set of applications and protocols to provide secure encrypted message transmission between two computers on an insecure (e.g. public) network.",
+        "definicija_hr": "Skup aplikacija i protokola koji omogućuju siguran, šifriran prijenos poruka između dva računala na nesigurnoj (npr. javnoj) mreži."
+      },
+      {
+        "akronim": "SSL",
+        "puni_naziv": "Secure Sockets Layer",
+        "definicija": "A protocol designed by Netscape Communications to enable encrypted, authenticated communications across the internet. SSL used mostly in communications between web browsers and web servers.",
+        "definicija_hr": "Protokol koji je razvila tvrtka Netscape Communications kako bi omogućila šifriranu i autentificiranu komunikaciju putem interneta. SSL se najčešće koristi u komunikaciji između web preglednika i web poslužitelja."
+      },
+      {
+        "akronim": "TCP",
+        "puni_naziv": "Transmission Control Protocol",
+        "definicija": "A connection-oriented protocol that transmits data in byte streams. Data is transmitted in packets called TCP segments, which contain TCP headers and data.",
+        "definicija_hr": "Protokol orijentiran na vezu koji prenosi podatke u tokovima bajtova. Podaci se prenose u paketima koji se nazivaju TCP segmenti i sadrže TCP zaglavlja i podatke."
+      },
+      {
+        "akronim": "TLS",
+        "puni_naziv": "Transport Layer Security",
+        "definicija": "A cryptographic protocol designed to provide communications security over a computer network, such as the Internet. The protocol is widely used in applications such as email, instant messaging, and voice over IP, but its use in securing HTTPS remains the most publicly visible.",
+        "definicija_hr": "Kriptografski protokol osmišljen za osiguravanje komunikacije preko računalne mreže, poput interneta. Protokol se široko koristi u aplikacijama kao što su e-pošta, trenutačne poruke i prijenos glasa putem IP-a, ali je najpoznatiji po svojoj ulozi u osiguravanju HTTPS-a."
+      },
+      {
+        "akronim": "UDP",
+        "puni_naziv": "User Datagram Protocol",
+        "definicija": "It is part of the TCP/IP suite of protocols used for data transferring. UDP is a known as a 'stateless' protocol, meaning it doesn't acknowledge that the packets being sent have been received. For this reason, the UDP protocol is typically used for streaming media. While you might see skips in video or hear some fuzz in audio clips, UDP transmission prevents the playback from stopping completely.",
+        "definicija_hr": "Dio je TCP/IP skupa protokola koji se koristi za prijenos podataka. UDP je poznat kao 'bezdržavni' protokol, što znači da ne potvrđuje primitak poslanih paketa. Zbog toga se UDP obično koristi za prijenos medijskih sadržaja. Iako se mogu pojaviti prekidi u videozapisu ili smetnje u zvuku, UDP prijenos sprječava potpuno zaustavljanje reprodukcije."
+      },
+      {
+        "akronim": "VPN",
+        "puni_naziv": "Virtual Private Network",
+        "definicija": "This is a network term that most computer users don't need to know, but at least you can impress your friends by talking about it. A VPN refers to a network that is connected to the Internet, but uses encryption to scramble all the data sent through the Internet so the entire network is 'virtually' private.",
+        "definicija_hr": "Ovo je mrežni pojam koji većina korisnika računala ne mora znati, ali možete impresionirati prijatelje ako o njemu pričate. VPN označava mrežu koja je povezana s internetom, ali koristi šifriranje kako bi zamutila sve podatke koji se prenose, čineći tako cijelu mrežu 'virtualno' privatnom."
+      },
+      {
+        "akronim": "W3C",
+        "puni_naziv": "World Wide Web Consortium",
+        "definicija": "An organization formed in 1994 to promote the Web's evolution as a platform for information, commerce and communication. The W3C, which has more than 500 member organizations, has developed XML and a variety of XML-related specifications.",
+        "definicija_hr": "Organizacija osnovana 1994. godine s ciljem promicanja razvoja weba kao platforme za informacije, trgovinu i komunikaciju. W3C, koji ima više od 500 članova, razvio je XML i niz specifikacija povezanih s XML-om."
+      }
+    ],
+
+
+    "Korisnicko_iskustvo_i_dizajn": [
+      {
+        "akronim": "AR",
+        "puni_naziv": "Augmented Reality",
+        "definicija": "Augmented reality is an interactive experience that enhances the real world with computer-generated perceptual information. Using software, apps, and hardware such as AR glasses, augmented reality overlays digital content onto real-life environments and objects.",
+        "definicija_hr": "Proširena stvarnost je interaktivno iskustvo koje poboljšava stvarni svijet pomoću računalno generiranih perceptualnih informacija. Korištenjem softvera, aplikacija i hardvera poput AR naočala, proširena stvarnost nadmašuje digitalni sadržaj na stvarne okolnosti i objekte."
+      },
+      {
+        "akronim": "CMYK",
+        "puni_naziv": "cyan, magenta, yellow, black",
+        "definicija": "An abbreviation denoting the traditional four-color printing process; the name derives from the four ink colors used. The majority of printed color paper and photographic documents incorporate the CMYK process.",
+        "definicija_hr": "Skraćenica koja označava tradicionalni četverobojni tiskarski proces; naziv potječe od četiri boje tinte koje se koriste. Većina tiskanih papirnih i fotografskih dokumenata koristi CMYK proces."
+      },
+      {
+        "akronim": "DPI",
+        "puni_naziv": "Dots Per Inch",
+        "definicija": "An image measurement standard that measures an images resolution as it applies to printers. It measures the images pixels in one square inch. The higher the number the better the images resolution or quality.",
+        "definicija_hr": "Standard za mjerenje slike koji mjeri rezoluciju slike u kontekstu pisača. Mjeri broj piksela slike u jednom kvadratnom inču. Što je broj veći, to je bolja rezolucija slike ili kvaliteta."
+      },
+      {
+        "akronim": "GIF",
+        "puni_naziv": "Graphic Interchange Format",
+        "definicija": "A common format for image files, especially suitable for images containing large areas of the same color. GIF format files of simple images are often smaller than the same file would be if stored in JPEG format, but GIF format does not store photographic images as well as JPEG.",
+        "definicija_hr": "Uobičajeni format za slikovne datoteke, posebno pogodan za slike koje sadrže velike površine iste boje. GIF format datoteka jednostavnih slika često je manji nego da je spremljen u JPEG formatu, no GIF format ne pohranjuje fotografske slike tako dobro kao JPEG."
+      },
+      {
+        "akronim": "GIMP",
+        "puni_naziv": "GNU Image Manipulation Program",
+        "definicija": "Freely distributed piece of software suitable for such tasks as photo retouching, image composition and image authoring.",
+        "definicija_hr": "Slobodno distribuiran softver prikladan za zadatke poput retuširanja fotografija, sastavljanja slika i izrade slika."
+      },
+      {
+        "akronim": "GUI",
+        "puni_naziv": "Graphical User Interface",
+        "definicija": "Pronounced goo-ee. A pictorial 'front end' program to simplify the operation of computers like the IBM PC and the Apple Macintosh. Documents are stored in pictures ('icons') of drawers or filing cabinets (which represent files or directories in disk drives).",
+        "definicija_hr": "Izgovara se goo-ee. Piktoralni 'prednji' program koji pojednostavljuje rad s računalima poput IBM PC-a i Apple Macintosha. Dokumenti se pohranjuju u slikama ('ikonama') ladica ili ormara (koji predstavljaju datoteke ili direktorije na tvrdim diskovima)."
+      },
+      {
+        "akronim": "KISS",
+        "puni_naziv": "Keep It Simple, Stupid",
+        "definicija": "The New Hacker's Dictionary, edited by Eric Raymond, says that the KISS Principle is sometimes cited on a development project to fend off feature creep. The somewhat related idea of Ockham's razor is about always looking for the simplest explanation.",
+        "definicija_hr": "Nova hackerovska riječnik, uredio Eric Raymond, kaže da se KISS princip ponekad citira u razvojnim projektima kako bi se spriječio razvoj suvišnih značajki. Pomalo srodna ideja Ockhamove britve odnosi se na stalno traženje najjednostavnijeg objašnjenja."
+      },
+      {
+        "akronim": "PDF",
+        "puni_naziv": "Portable Document Format",
+        "definicija": "A multi-platform file format developed by Adobe Systems. A PDF file captures document text, fonts, images, and even formatting of documents from a variety of applications.",
+        "definicija_hr": "Višenamjenski format datoteka razvijen od strane Adobe Systems. PDF datoteka pohranjuje tekst dokumenta, fontove, slike i čak formatiranje dokumenata iz različitih aplikacija."
+      },
+      {
+        "akronim": "PNG",
+        "puni_naziv": "Portable Network Graphics",
+        "definicija": "PNG is a graphics format specifically designed for use on the World Wide Web. PNG enable compression of images without any loss of quality, including high-resolution images. Another important feature of PNG is that anyone may create software that works with PNG images without paying any fees - the PNG standard is free of any licensing costs.",
+        "definicija_hr": "PNG je grafički format posebno dizajniran za korištenje na World Wide Webu. PNG omogućuje kompresiju slika bez gubitka kvalitete, uključujući slike visoke rezolucije. Druga važna značajka PNG-a je da bilo tko može stvoriti softver koji radi s PNG slikama bez plaćanja naknada - PNG standard je besplatan i ne zahtijeva licencne troškove."
+      },
+      {
+        "akronim": "PPI",
+        "puni_naziv": "Pixels Per Inch",
+        "definicija": "The measure of resolution in a digital image or video display.",
+        "definicija_hr": "Mjerenje rezolucije u digitalnoj slici ili video prikazu."
+      },
+      {
+        "akronim": "SVG",
+        "puni_naziv": "Scalable Vector Graphics",
+        "definicija": "An XML file that is used to hold graphical data that can be resized without loss of quality. SVG data can be kept in its own file, or even embedded within a web page.",
+        "definicija_hr": "XML datoteka koja se koristi za pohranu grafičkih podataka koji se mogu mijenjati bez gubitka kvalitete. SVG podaci mogu biti pohranjeni u vlastitoj datoteci ili čak ugrađeni unutar web stranice."
+      },
+      {
+        "akronim": "TWAIN",
+        "puni_naziv": "Technology Without an Interesting Name",
+        "definicija": "A protocol for delivering graphical images from a scanning or imaging device to application software.",
+        "definicija_hr": "Protokol za prijenos grafičkih slika sa skener-a ili uređaja za snimanje u aplikacijski softver."
+      },
+      {
+        "akronim": "UI",
+        "puni_naziv": "User Interface",
+        "definicija": "The point of human-computer interaction and communication in a device.",
+        "definicija_hr": "Točka interakcije i komunikacije između čovjeka i računala u uređaju."
+      },
+      {
+        "akronim": "UX",
+        "puni_naziv": "User eXperience",
+        "definicija": "The feeling users experience when using a product, application, system, or service.",
+        "definicija_hr": "Osjećaj koji korisnici doživljavaju prilikom korištenja proizvoda, aplikacije, sustava ili usluge."
+      },
+      {
+        "akronim": "WYSIWYG",
+        "puni_naziv": "What You See Is What You Get",
+        "definicija": "Pronounced wiz-ee-wig, user interface that presents a screen image that closely matches the appearance of the printed document - like Microsoft's FrontPage web page editor and Adobe Dreamweaver.",
+        "definicija_hr": "Izgovara se wiz-ee-wig, korisničko sučelje koje prikazuje sliku na ekranu koja se usko podudara s izgledom ispisa dokumenta - poput Microsoftovog FrontPage urednika za web stranice i Adobe Dreamweavera."
+      }
+    ],
+
+
+    "Suvremene_tehnologije_i_koncepti": [
+      {
+        "akronim": "AGI",
+        "puni_naziv": "Artificial General Intelligence",
+        "definicija": "Refers to the hypothetical intelligence of a machine that possesses the ability to understand or learn any intellectual task that a human being can.",
+        "definicija_hr": "Odnosni se na hipotetsku inteligenciju stroja koji posjeduje sposobnost razumijevanja ili učenja bilo kojeg intelektualnog zadatka koji čovjek može."
+    },
+    {
+        "akronim": "AI",
+        "puni_naziv": "Artificial Intelligence",
+        "definicija": "A machine-based system that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments.",
+        "definicija_hr": "Sustav temeljen na stroju koji, za eksplicitne ili implicitne ciljeve, izvodi zaključke na temelju ulaza koji prima i generira izlaze kao što su predviđanja, sadržaj, preporuke ili odluke koje mogu utjecati na fizička ili virtualna okruženja."
+    },
+    {
+        "akronim": "ASI",
+        "puni_naziv": "Artificial Superintelligence",
+        "definicija": "Software-based system with intellectual powers beyond those of humans across a comprehensive range of categories and fields of endeavor. ASI doesn't exist yet and is a hypothetical state of AI.",
+        "definicija_hr": "Sustav temeljen na softveru s intelektualnim sposobnostima koje nadmašuju ljudske u širokom rasponu kategorija i područja. ASI još ne postoji i predstavlja hipotetsko stanje umjetničke inteligencije."
+    },
+    {
+        "akronim": "AVI",
+        "puni_naziv": "Audio/Video Interleaved",
+        "definicija": "AVI is the most common format for audio/video data on the personal computer.",
+        "definicija_hr": "AVI je najčešći format za audio/video podatke na osobnim računalima."
+    },
+    {
+        "akronim": "ChatGPT",
+        "puni_naziv": "Chat Generative Pre-trained Transformer",
+        "definicija": "Generative artificial intelligence chatbot developed by OpenAI and launched in 2022.",
+        "definicija_hr": "Generativni chatbot umjetničke inteligencije razvijen od strane OpenAI i lansiran 2022. godine."
+    },
+    {
+        "akronim": "CV",
+        "puni_naziv": "Computer Vision",
+        "definicija": "Computer vision is a field of artificial intelligence (AI) that uses machine learning and neural networks to teach computers and systems to derive meaningful information from digital images, videos and other visual inputs—and to make recommendations or take actions when they see defects or issues.",
+        "definicija_hr": "Računalni vid je područje umjetničke inteligencije (AI) koje koristi strojno učenje i neuronske mreže kako bi naučilo računala i sustave izvoditi značajne informacije iz digitalnih slika, videa i drugih vizualnih unosa te davati preporuke ili poduzimati radnje kada prepoznaju greške ili probleme."
+    },
+    {
+        "akronim": "DX",
+        "puni_naziv": "Digital Transformation",
+        "definicija": "Refers to the use of digital technologies to create new business models and to recreate legacy processes (includes multi-cloud, analytics, artificial intelligence and big data).",
+        "definicija_hr": "Odnosni se na korištenje digitalnih tehnologija za stvaranje novih poslovnih modela i rekreaciju zastarjelih procesa (uključuje multi-cloud, analitiku, umjetničku inteligenciju i velike podatke)."
+    },
+    {
+        "akronim": "IA",
+        "puni_naziv": "Intelligent Automation",
+        "definicija": "Is the use of automation technologies—artificial intelligence (AI), business process management (BPM) and robotic process automation (RPA)—to streamline and scale decision-making across organizations.",
+        "definicija_hr": "Korištenje tehnologija automatizacije—umjetničke inteligencije (AI), upravljanja poslovnim procesima (BPM) i robotske automatizacije procesa (RPA)—za pojednostavljenje i skaliranje donošenja odluka u organizacijama."
+    },
+    {
+        "akronim": "ICT",
+        "puni_naziv": "Information and Communication Technology",
+        "definicija": "ICT is defined as a diverse set of technological tools and resources used to transmit, store, create, share or exchange information.",
+        "definicija_hr": "ICT se definira kao skup raznih tehnoloških alata i resursa koji se koriste za prijenos, pohranu, stvaranje, dijeljenje ili razmjenu informacija."
+    },
+    {
+        "akronim": "IoT",
+        "puni_naziv": "Internet of Things",
+        "definicija": "Network of real-world devices that can interact and share data and information with other endpoints and remote data centers.",
+        "definicija_hr": "Mreža stvarnih uređaja koji mogu međusobno komunicirati i dijeliti podatke i informacije s drugim krajnjim točkama i udaljenim podatkovnim centrima."
+    },
+    {
+        "akronim": "IPA",
+        "puni_naziv": "Intelligent Process Automation",
+        "definicija": "The use of automation for business and IT processes to improve performance, provide orchestration and reduce or eliminate manual work and errors.",
+        "definicija_hr": "Korištenje automatizacije za poslovne i IT procese radi poboljšanja performansi, pružanja orkestracije te smanjenja ili eliminiranja ručnog rada i pogrešaka."
+    },
+    {
+        "akronim": "IT",
+        "puni_naziv": "Information Technology",
+        "definicija": "Information Technology means the use of hardware, software, services, and supporting infrastructure to manage and deliver information using voice, data and video.",
+        "definicija_hr": "Informacijska tehnologija znači korištenje hardverskih, softverskih, uslužnih i infrastrukturnih resursa za upravljanje i isporuku informacija putem glasa, podataka i videa."
+    },
+    {
+        "akronim": "ITPA",
+        "puni_naziv": "IT Process Automation",
+        "definicija": "The practice of using automated workflows to coordinate, integrate, and manage digital tools and processes with the goal of saving IT personnel time.",
+        "definicija_hr": "Praksa korištenja automatiziranih radnih tijekova za koordiniranje, integriranje i upravljanje digitalnim alatima i procesima s ciljem štednje vremena IT osoblja."
+    },
+    {
+      "akronim": "LASER",
+      "puni_naziv": "Light Amplification by Stimulated Emission of Radiation",
+      "definicija": "Analog transmission device in which a suitable active material is excited by an external stimulus to produce a narrow beam of coherent light that can be modulated into pulses to carry data. Networks based on laser technology are sometimes run over SONET.",
+      "definicija_hr": "Analogni prijenosni uređaj u kojem se pogodno aktivno materijal uzbuđuje vanjskim podražajem kako bi proizveo uski snop koherentne svjetlosti koji se može modulirati u impulse za prijenos podataka. Mreže temeljene na laserskoj tehnologiji ponekad koriste SONET."
+  },
+  {
+      "akronim": "MIDI",
+      "puni_naziv": "Musical Instrument Digital Interface",
+      "definicija": "A high-quality audio file format.",
+      "definicija_hr": "Format audio datoteke visoke kvalitete."
+  },
+  {
+      "akronim": "ML",
+      "puni_naziv": "Machine Learning",
+      "definicija": "ML algorithms are used to analyze historical and real-time data in order to improve predictions and models as more data is produced. ML is a foundational technology for AI and other intelligent tools.",
+      "definicija_hr": "ML algoritmi koriste se za analizu povijesnih i stvarnih podataka kako bi poboljšali predviđanja i modele dok se podaci nastavljaju proizvoditi. ML je temeljna tehnologija za AI i druge inteligentne alate."
+  },
+  {
+      "akronim": "MOODLE",
+      "puni_naziv": "Modular Object-Oriented Dynamic Learning Environment",
+      "definicija": "Moodle is an open source course management system, originally developed by Martin Dougiamas. It is used by thousands of educational institutions around the world to provide an organized interface for e-learning, or learning over the Internet.",
+      "definicija_hr": "Moodle je sustav za upravljanje tečajevima otvorenog koda, koji je izvorno razvio Martin Dougiamas. Koristi ga tisuće obrazovnih institucija diljem svijeta za pružanje organiziranog sučelja za e-učenje ili učenje putem Interneta."
+  },
+  {
+      "akronim": "PaaS",
+      "puni_naziv": "Platform as a Service",
+      "definicija": "PaaS vendors provide cloud-based development environments often through a pay-as-you-go subscription model. PaaS hardware and software are owned by the service provider and can be hosted by the service provider or on-premises.",
+      "definicija_hr": "PaaS pružatelji nude razvojna okruženja temeljenja na oblaku često kroz model pretplate 'plaćaj kako koristiš'. PaaS hardver i softver u vlasništvu su pružatelja usluga i mogu biti hostirani od strane pružatelja usluga ili na vlastitim poslužiteljima."
+  },
+  {
+      "akronim": "RPA",
+      "puni_naziv": "Robotic Process Automation",
+      "definicija": "RPA refers to software scripts that perform rules-based tasks at the application layer. Common examples include data entry and screen-scraping.",
+      "definicija_hr": "RPA se odnosi na softverske skripte koje obavljaju zadatke temeljenje na pravilima na aplikacijskoj razini. Uobičajeni primjeri uključuju unos podataka i 'screen-scraping'."
+  },
+  {
+      "akronim": "SaaS",
+      "puni_naziv": "Software as a Service",
+      "definicija": "SaaS vendors provide cloud-based applications often through a pay-as-you-go subscription model. SaaS software is owned by the service provider and can be hosted by the service provider or on-premises.",
+      "definicija_hr": "SaaS pružatelji nude aplikacije temeljenje na oblaku često kroz model pretplate 'plaćaj kako koristiš'. SaaS softver u vlasništvu je pružatelja usluga i može biti hostiran od strane pružatelja usluga ili na vlastitim poslužiteljima."
+  },
+  {
+      "akronim": "SOA",
+      "puni_naziv": "Service Oriented Architecture",
+      "definicija": "When businesses grow, they often add new products and services. While these additions may help make the business larger, it is often difficult to implement them in an efficient manner. The goal of SOA is to make it easy for businesses to grow and add new services.",
+      "definicija_hr": "Kada poduzeća rastu, često dodaju nove proizvode i usluge. Iako te dodaci mogu pomoći u širenju poduzeća, često je teško implementirati ih na učinkovit način. Cilj SOA je olakšati poduzećima rast i dodavanje novih usluga."
+  },
+  {
+      "akronim": "TAR",
+      "puni_naziv": "Tape ARchive",
+      "definicija": "A compression format commonly used in the transfer and storage of files on UNIX computers (.tar).",
+      "definicija_hr": "Format kompresije koji se često koristi za prijenos i pohranu datoteka na UNIX računalima (.tar)."
+  },
+  {
+      "akronim": "TLD",
+      "puni_naziv": "Top Level Domain",
+      "definicija": "The last (right-hand) part of a complete Domain Name. There are a large number of TLD's, e.g. .biz, .com, .edu, .gov, .info, .int, .mil, .net, .org, and a collection of two-letter TLD's corresponding to the standard two-letter country codes, e.g., .us, .ca, .jp, etc.",
+      "definicija_hr": "Posljednji (desni) dio kompletnog imena domena. Postoji veliki broj TLD-ova, npr. .biz, .com, .edu, .gov, .info, .int, .mil, .net, .org, i zbirka dvopismenih TLD-ova koji odgovaraju standardnim dvopismenim kodovima zemalja, npr., .us, .ca, .jp, itd."
+  },
+  {
+    "akronim": "UML",
+    "puni_naziv": "Unified Modeling Language",
+    "definicija": "A standardized visual notation for communication about system specifications and design details. Initially created at Rational Software (now part of IBM).",
+    "definicija_hr": "Standardizirana vizualna notacija za komunikaciju o specifikacijama sustava i detaljima dizajna. Prvotno stvorena u Rational Softwareu (sada dio IBM-a)."
+},
+{
+    "akronim": "URI",
+    "puni_naziv": "Uniform Resource Identifier",
+    "definicija": "An address for a resource available on the Internet. The first part of a URI is called the 'scheme'. The most well known scheme is http, but there are many others. Each URI scheme has its own format for how a URI should appear.",
+    "definicija_hr": "Adresa resursa dostupnog na Internetu. Prvi dio URI-ja naziva se 'shema'. Najpoznatija shema je http, ali postoje mnoge druge. Svaka URI shema ima svoj vlastiti format za izgled URI-ja."
+},
+{
+    "akronim": "URL",
+    "puni_naziv": "Uniform Resource Locator",
+    "definicija": "The standard way to give address of any resource on the Internet that is part of the WWW. The most common way to use a URL is to enter into a WWW browser program, such as Netscape, or Lynx.",
+    "definicija_hr": "Standardni način davanja adrese bilo kojeg resursa na Internetu koji je dio WWW-a. Najčešći način korištenja URL-a je unos u WWW preglednik, poput Netscapea ili Lynxa."
+},
+{
+    "akronim": "UTF8",
+    "puni_naziv": "Unicode Transformation Format 8",
+    "definicija": "A method for converting 16-bit Unicode characters to 8-bit characters. This format supports all of the world's languages, including those that use non-Latin 1 characters.",
+    "definicija_hr": "Metoda za pretvorbu 16-bitnih Unicode znakova u 8-bitne znakove. Ovaj format podržava sve jezike svijeta, uključujući one koji koriste nenatavne znakove."
+},
+{
+    "akronim": "VM",
+    "puni_naziv": "Virtual Machine",
+    "definicija": "Virtual machines are virtualized representations of computer systems. Each VM has its own sandboxed environment on a host server, which can have multiple VMs running simultaneously.",
+    "definicija_hr": "Virtualne mašine su virtualizirane reprezentacije računalnih sustava. Svaka VM ima vlastito izolirano okruženje na poslužiteljskom računaru, koji može pokretati više VM-ova istovremeno."
+},
+{
+    "akronim": "VPC",
+    "puni_naziv": "Virtual Private Cloud",
+    "definicija": "A private cloud hosted within a public cloud.",
+    "definicija_hr": "Privatni oblak smješten unutar javnog oblaka."
+},
+{
+    "akronim": "VR",
+    "puni_naziv": "Virtual Reality",
+    "definicija": "A computer-generated environment with scenes and objects that appear to be real, making the user feel they are immersed in their surroundings.",
+    "definicija_hr": "Računalno generirano okruženje s scenama i objektima koji izgledaju stvarno, čineći korisnika da se osjeća kao da je uronjen u svoje okruženje."
+},
+{
+    "akronim": "WAP",
+    "puni_naziv": "Wireless Application Protocol",
+    "definicija": "WAP is a set of specifications developed by the WAP Forum for efficient communication of data over wireless networks to small devices, such as personal digital assistants and cell phones.",
+    "definicija_hr": "WAP je skup specifikacija razvijenih od strane WAP Foruma za učinkovitu komunikaciju podataka putem bežičnih mreža prema malim uređajima, poput osobnih digitalnih asistenata i mobilnih telefona."
+},
+{
+    "akronim": "WIKI",
+    "puni_naziv": "What I Know Is",
+    "definicija": "Typically used to describe a collaborative (or community) project allowing visitors to edit webpages and add content for the benefit of the group or community.",
+    "definicija_hr": "Obično se koristi za opisivanje suradničkog (ili zajedničkog) projekta koji omogućuje posjetiteljima uređivanje web stranica i dodavanje sadržaja za korist grupe ili zajednice."
+},
+{
+    "akronim": "XML",
+    "puni_naziv": "Extensible Markup Language",
+    "definicija": "Defines documents with a standard format that can be read by any XML-compatible application. The language can be used with HTML pages, but XML itself is not a markup language. Instead, it is a 'metalanguage' that can be used to create markup languages for specific applications.",
+    "definicija_hr": "Definira dokumente sa standardnim formatom koji može čitati bilo koja XML-kompatibilna aplikacija. Jezik se može koristiti s HTML stranicama, ali XML nije sam po sebi označni jezik. Umjesto toga, to je 'metalanguage' koji se može koristiti za stvaranje označnih jezika za specifične aplikacije."
+},
+{
+    "akronim": "XSLT",
+    "puni_naziv": "eXtensible Style Language Transformation",
+    "definicija": "The language used in XSL style sheets to 'interpret' XML coding and display it in a language the viewer will understand.",
+    "definicija_hr": "Jezik korišten u XSL stilskim listovima za 'tumačenje' XML kodiranja i njegovo prikazivanje na jeziku koji će gledatelj razumjeti."
+},
+{
+    "akronim": "YAGNI",
+    "puni_naziv": "You Ain’t Gonna Need It",
+    "definicija": "Is a principle which arose from extreme programming (XP) that states a programmer should not add functionality until deemed necessary.",
+    "definicija_hr": "Princip koji je nastao iz ekstremnog programiranja (XP) i tvrdi da programer ne bi trebao dodavati funkcionalnosti dok to nije nužno."
+}
+],
+
+
+    "Funny": [
+        {
+          "akronim": "ADO",
+          "puni_naziv": "alkohol dolazi odmah",
+          "definicija": "",
+          "definicija_hr": ""
+        },
+        {
+          "akronim": "ARP",
+          "puni_naziv": "ajmo radije pit'",
+          "definicija": "",
+          "definicija_hr": ""
+        },
+        {
+          "akronim": "ASP",
+          "puni_naziv": "ajmo svi pit'",
+          "definicija": "",
+          "definicija_hr": ""
+        },
+        {
+          "akronim": "DHCP",
+          "puni_naziv": "dvije hladne crne pive",
+          "definicija": "",
+          "definicija_hr": ""
+        },
+        {
+          "akronim": "DNS",
+          "puni_naziv": "daj nam Stellu",
+          "definicija": "",
+          "definicija_hr": ""
+        },
+        {
+          "akronim": "GIS",
+          "puni_naziv": "gorki i Stella",
+          "definicija": "",
+          "definicija_hr": ""
+        },
+        {
+          "akronim": "GPS",
+          "puni_naziv": "gorki pelinkovac svima",
+          "definicija": "",
+          "definicija_hr": ""
+        },
+        {
+          "akronim": "ISA",
+          "puni_naziv": "idu stari alkoši",
+          "definicija": "",
+          "definicija_hr": ""
+        },
+        {
+          "akronim": "NET",
+          "puni_naziv": "donesi ovamo travaricu, neka etanol teče",
+          "definicija": "",
+          "definicija_hr": ""
+        },
+        {
+          "akronim": "ODBC",
+          "puni_naziv": "odnesi dva ballantinesa cugerima",
+          "definicija": "",
+          "definicija_hr": ""
+        },
+        {
+          "akronim": "PHP",
+          "puni_naziv": "pijmo hrvatska piva!",
+          "definicija": "",
+          "definicija_hr": ""
+        },
+        {
+          "akronim": "PPP",
+          "puni_naziv": "pijem pivu popodne ",
+          "definicija": "",
+          "definicija_hr": ""
+        },
+        {
+          "akronim": "SLIP",
+          "puni_naziv": "sad litru i pelinkovac ",
+          "definicija": "",
+          "definicija_hr": ""
+        },
+        {
+          "akronim": "TCP/IP",
+          "puni_naziv": "- tri crne pive / i pelinkovac",
+          "definicija": "",
+          "definicija_hr": ""
+        },
+        {
+          "akronim": "WINS",
+          "puni_naziv": "vina ima, natoči svima",
+          "definicija": "",
+          "definicija_hr": ""
+        }
+      ]      
+  }
+  

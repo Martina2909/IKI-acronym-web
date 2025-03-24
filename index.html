@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .category {
+            margin: 10px 0;
+            font-size: 1.2em;
+            cursor: pointer;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Categories</h1>
+    <div id="categories"></div>
+    <div id="error-message" style="color: red;"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('akronimi.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const categoriesDiv = document.getElementById('categories');
+                    for (const category in data) {
+                        const categoryDiv = document.createElement('div');
+                        categoryDiv.className = 'category';
+                        categoryDiv.textContent = category.replace(/_/g, ' ');
+                        categoryDiv.addEventListener('click', function() {
+                            window.location.href = `${category}.html`;
+                        });
+                        categoriesDiv.appendChild(categoryDiv);
+                    }
+                })
+                .catch(error => {
+                    document.getElementById('error-message').textContent = 'Error loading JSON: ' + error;
+                    console.error('Error loading JSON:', error);
+                });
+        });
+    </script>
+</body>
+</html>

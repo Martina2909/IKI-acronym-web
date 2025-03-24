@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            margin-left: 10px;
+        }
+        .dropbtn {
+            background: none;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        #acronyms {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .acronym {
+            flex: 1 1 calc(33.333% - 40px);
+            box-sizing: border-box;
+            margin: 20px;
+            padding: 0;
+            text-align: center;
+            cursor: pointer;
+            perspective: 1000px; 
+            height: 300px; 
+        }
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        .acronym.flipped .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+        .flip-card-front, .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px; 
+            box-sizing: border-box;
+        }
+        .flip-card-front {
+            background-color: #e0f7fa; 
+            padding: 20px;
+        }
+        .flip-card-back {
+            transform: rotateY(180deg);
+            background-color: #f1f1f1;
+            padding: 20px; 
+        }
+        .flip-card-back .full-name {
+            font-size: 1.5em; 
+            font-weight: bold; 
+        }
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #000;
+            color: #fff;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            display: none;
+            z-index: 1000;
+        }
+        #back-to-top:hover {
+            background-color: #555;
+        }
+        #back-to-top::before {
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-bottom: 12px solid #fff;
+            position: relative;
+            top: -2px;
+        }
+        #back-to-top::after {
+            content: '';
+            display: block;
+            width: 2px;
+            height: 10px;
+            background: #fff;
+            position: relative;
+            top: -4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Web Development</h1>
+        <div class="dropdown">
+            <button class="dropbtn">▼</button>
+            <div class="dropdown-content" id="category-dropdown">
+              
+            </div>
+        </div>
+    </div>
+    <div id="acronyms"></div>
+    <div id="error-message" style="color: red;"></div>
+    <div id="back-to-top"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const category = 'Web_development';
+            fetch('akronimi.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const categoryDropdown = document.getElementById('category-dropdown');
+                    for (const cat in data) {
+                        if (cat !== category) {
+                            const categoryLink = document.createElement('a');
+                            categoryLink.href = `${cat}.html`;
+                            categoryLink.textContent = cat.replace(/_/g, ' ');
+                            categoryDropdown.appendChild(categoryLink);
+                        }
+                    }
+
+                    const categoryData = data[category];
+                    if (!categoryData) {
+                        throw new Error('Category not found in JSON data');
+                    }
+                    const acronymsDiv = document.getElementById('acronyms');
+
+                    categoryData.forEach(item => {
+                        const acronymDiv = document.createElement('div');
+                        acronymDiv.className = 'acronym';
+                        acronymDiv.innerHTML = `
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h2>${item.akronim}</h2>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div>
+                                        <p class="full-name">${item.puni_naziv}</p>
+                                        <p><strong>Definition:</strong> ${item.definicija}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        acronymDiv.addEventListener('click', function() {
+                            acronymDiv.classList.toggle('flipped');
+                        });
+                        acronymsDiv.appendChild(acronymDiv);
+                    });
+                })
+                .catch(error => {
+                    document.getElementById('error-message').textContent = 'Error loading JSON: ' + error;
+                    console.error('Error loading JSON:', error);
+                });
+
+            const backToTopButton = document.getElementById('back-to-top');
+            backToTopButton.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 200) {
+                    backToTopButton.style.display = 'flex';
+                } else {
+                    backToTopButton.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

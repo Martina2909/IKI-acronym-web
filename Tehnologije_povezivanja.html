@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umrežavanje i komunikacija</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .acronym {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .acronym h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .acronym p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Umrežavanje i komunikacija</h1>
+    <div id="acronyms"></div>
+    <div id="error-message" style="color: red;"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const category = 'Umrezavanje_i_komunikacija';
+            fetch('akronimi.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const categoryData = data[category];
+                    if (!categoryData) {
+                        throw new Error('Category not found in JSON data');
+                    }
+                    const acronymsDiv = document.getElementById('acronyms');
+
+                    categoryData.forEach(item => {
+                        const acronymDiv = document.createElement('div');
+                        acronymDiv.className = 'acronym';
+                        acronymDiv.innerHTML = `
+                            <h2>${item.akronim}</h2>
+                            <p><strong>Full Name:</strong> ${item.puni_naziv}</p>
+                            <p><strong>Definition:</strong> ${item.definicija}</p>
+                            <p><strong>Definicija (HR):</strong> ${item.definicija_hr}</p>
+                        `;
+                        acronymsDiv.appendChild(acronymDiv);
+                    });
+                })
+                .catch(error => {
+                    document.getElementById('error-message').textContent = 'Error loading JSON: ' + error;
+                    console.error('Error loading JSON:', error);
+                });
+        });
+    </script>
+</body>
+</html>

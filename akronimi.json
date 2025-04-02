@@ -117,7 +117,7 @@
     ],
 
 
-    "Umrežavanje_i_komunikacija": [
+    "Tehnologije_povezivanja": [
       {
         "akronim": "ADSL",
         "puni_naziv": "Asymmetric Digital Subscriber Line",
@@ -763,7 +763,7 @@
     ],
 
 
-    "Sigurnost_standardi_i_protokoli": [
+    "Sigurnost,_standardi_i_protokoli": [
       {
         "akronim": "AES",
         "puni_naziv": "Advanced Encryption Standard",
@@ -959,7 +959,7 @@
     ],
 
 
-    "Korisničko_iskustvo_i_dizajn": [
+    "UI_i_dizajn": [
       {
         "akronim": "AR",
         "puni_naziv": "Augmented Reality",

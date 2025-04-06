@@ -7,29 +7,228 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .category-container {
+            display: flex;
+            align-items: center;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            margin-left: 10px;
+        }
+        .dropbtn {
+            background: none;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        .search-container input[type="text"] {
+            padding: 5px 10px 5px 30px; 
+            font-size: 1em;
+            border: 1px solid #333; 
+            border-radius: 5px;
+            max-width: calc(100% - 40px); 
+            color: #aaa; 
+        }
+        .search-container input[type="text"]::placeholder {
+            color: #aaa; 
+        }
+        .search-container .search-icon {
+            position: absolute;
+            left: 10px;
+            font-size: 1em;
+            color: #aaa; 
+        }
+        #acronyms {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
         }
         .acronym {
-            margin: 10px 0;
-            padding: 10px;
-            border: 1px solid #ccc;
+            flex: 1 1 calc(33.333% - 40px);
+            box-sizing: border-box;
+            margin: 20px;
+            padding: 0;
+            text-align: center;
+            cursor: pointer;
+            perspective: 1000px; 
+            height: 300px; 
         }
-        .acronym h2 {
-            margin: 0;
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        .acronym.flipped .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+        .flip-card-front, .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px; 
+            box-sizing: border-box;
+        }
+        .flip-card-front {
+            background-color: #e0f7fa; 
+            padding: 20px;
+            transition: background-color 0.3s ease, transform 0.3s ease; 
+        }
+        .flip-card-front:hover {
+            background-color: #b2ebf2; 
+            transform: scale(1.05); 
+        }
+        .flip-card-back {
+            transform: rotateY(180deg);
+            background-color: #f1f1f1;
+            padding: 20px; 
+        }
+        .flip-card-back .full-name {
+            font-size: 1.5em; 
+            font-weight: bold; 
+        }
+        .language-buttons {
+            margin-top: 10px;
+        }
+        .language-buttons button {
+            margin: 5px;
+            padding: 5px 10px;
+            font-size: 1em;
+            cursor: pointer;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+        }
+        .language-buttons button:hover {
+            background-color: #0056b3;
+        }
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #000;
+            color: #fff;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            display: none;
+            z-index: 1000;
+        }
+        #back-to-top:hover {
+            background-color: #555;
+        }
+        #back-to-top::before {
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-bottom: 12px solid #fff;
+            position: relative;
+            top: -2px;
+        }
+        #back-to-top::after {
+            content: '';
+            display: block;
+            width: 2px;
+            height: 10px;
+            background: #fff;
+            position: relative;
+            top: -4px;
+        }
+        .button-link {
+            margin: 0 10px;
             font-size: 1.5em;
+            text-decoration: none;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
-        .acronym p {
-            margin: 5px 0;
+        .button-link:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <h1>Upravljanje podacima</h1>
+    <div class="header">
+        <div class="category-container">
+            <h1>Upravljanje podacima</h1>
+            <div class="dropdown">
+                <button class="dropbtn">▼</button>
+                <div class="dropdown-content" id="category-dropdown">
+                </div>
+            </div>
+        </div>
+        <a href="index.html" class="button-link">Početna</a>
+        <div class="search-container">
+            <span class="search-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </span>
+            <input type="text" id="search-bar" placeholder="Pretraži...">
+        </div>
+    </div>
     <div id="acronyms"></div>
     <div id="error-message" style="color: red;"></div>
+    <div id="back-to-top"></div>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const category = 'Upravljanje_podacima';
+            let akronimiData = [];
             fetch('akronimi.json')
                 .then(response => {
                     if (!response.ok) {
@@ -38,28 +237,97 @@
                     return response.json();
                 })
                 .then(data => {
-                    const categoryData = data[category];
-                    if (!categoryData) {
-                        throw new Error('Category not found in JSON data');
+                    akronimiData = data[category] || [];
+                    const categoryDropdown = document.getElementById('category-dropdown');
+                    for (const cat in data) {
+                        if (cat !== category) {
+                            const categoryLink = document.createElement('a');
+                            categoryLink.href = `${cat}.html`;
+                            categoryLink.textContent = cat.replace(/_/g, ' ');
+                            categoryDropdown.appendChild(categoryLink);
+                        }
                     }
-                    const acronymsDiv = document.getElementById('acronyms');
 
-                    categoryData.forEach(item => {
-                        const acronymDiv = document.createElement('div');
-                        acronymDiv.className = 'acronym';
-                        acronymDiv.innerHTML = `
-                            <h2>${item.akronim}</h2>
-                            <p><strong>Full Name:</strong> ${item.puni_naziv}</p>
-                            <p><strong>Definition:</strong> ${item.definicija}</p>
-                            <p><strong>Definicija (HR):</strong> ${item.definicija_hr}</p>
-                        `;
-                        acronymsDiv.appendChild(acronymDiv);
-                    });
+                    const acronymsDiv = document.getElementById('acronyms');
+                    displayAcronyms(akronimiData, acronymsDiv);
                 })
                 .catch(error => {
                     document.getElementById('error-message').textContent = 'Error loading JSON: ' + error;
                     console.error('Error loading JSON:', error);
                 });
+
+            const searchBar = document.getElementById('search-bar');
+            searchBar.addEventListener('input', function() {
+                const searchTerm = searchBar.value.toLowerCase();
+                const filteredData = akronimiData.filter(item =>
+                    item.akronim.toLowerCase().includes(searchTerm) ||
+                    item.puni_naziv.toLowerCase().includes(searchTerm)
+                );
+                const acronymsDiv = document.getElementById('acronyms');
+                displayAcronyms(filteredData, acronymsDiv);
+            });
+
+            const backToTopButton = document.getElementById('back-to-top');
+            backToTopButton.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 200) {
+                    backToTopButton.style.display = 'flex';
+                } else {
+                    backToTopButton.style.display = 'none';
+                }
+            });
+
+            function displayAcronyms(data, container) {
+                container.innerHTML = '';
+                data.forEach(item => {
+                    const acronymDiv = document.createElement('div');
+                    acronymDiv.className = 'acronym';
+                    acronymDiv.innerHTML = `
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <h2>${item.akronim}</h2>
+                            </div>
+                            <div class="flip-card-back" data-definicija="${item.definicija}" data-definicija-hr="${item.definicija_hr}">
+                                <div>
+                                    <p class="full-name">${item.puni_naziv}</p>
+                                    <p class="definition">${item.definicija}</p>
+                                    <div class="language-buttons">
+                                        <button class="btn-hr" onclick="changeLanguage(event, 'hr')">HR</button>
+                                        <button class="btn-en" onclick="changeLanguage(event, 'en')" style="display: none;">EN</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    acronymDiv.querySelector('.flip-card-inner').addEventListener('click', function(event) {
+                        if (!event.target.classList.contains('btn-hr') && !event.target.classList.contains('btn-en')) {
+                            acronymDiv.classList.toggle('flipped');
+                        }
+                    });
+                    container.appendChild(acronymDiv);
+                });
+            }
+
+            window.changeLanguage = function(event, lang) {
+                event.stopPropagation();
+                const definitionElement = event.target.closest('.flip-card-back').querySelector('.definition');
+                const definicija = event.target.closest('.flip-card-back').dataset.definicija;
+                const definicijaHr = event.target.closest('.flip-card-back').dataset.definicijaHr;
+                const btnHr = event.target.closest('.language-buttons').querySelector('.btn-hr');
+                const btnEn = event.target.closest('.language-buttons').querySelector('.btn-en');
+                if (lang === 'hr') {
+                    definitionElement.textContent = definicijaHr;
+                    btnHr.style.display = 'none';
+                    btnEn.style.display = 'inline-block';
+                } else {
+                    definitionElement.textContent = definicija;
+                    btnHr.style.display = 'inline-block';
+                    btnEn.style.display = 'none';
+                }
+            };
         });
     </script>
 </body>

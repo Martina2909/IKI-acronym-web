@@ -15,11 +15,55 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 20px;
+            padding: 40px 20px;
+            background: linear-gradient(to right, #b72026, #42515a);
+            position: relative;
+        }
+        .header .button-link {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1.5em;
+            text-decoration: none;
+            background-color: transparent;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 2px solid white;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .header .button-link:hover {
+            background-color: white;
+            color: #42515a;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+            position: relative;
+            margin-left: auto;
+        }
+        .search-container input[type="text"] {
+            padding: 5px 10px 5px 30px; 
+            font-size: 1em;
+            border: 1px solid #333; 
+            border-radius: 5px;
+            max-width: calc(100% - 40px); 
+            color: #aaa; 
+        }
+        .search-container input[type="text"]::placeholder {
+            color: #aaa; 
+        }
+        .search-container .search-icon {
+            position: absolute;
+            left: 10px;
+            font-size: 1em;
+            color: #aaa; 
         }
         .category-container {
             display: flex;
             align-items: center;
+            justify-content: flex-start;
+            padding: 20px;
         }
         .dropdown {
             position: relative;
@@ -51,28 +95,6 @@
         }
         .dropdown:hover .dropdown-content {
             display: block;
-        }
-        .search-container {
-            display: flex;
-            align-items: center;
-            position: relative;
-        }
-        .search-container input[type="text"] {
-            padding: 5px 10px 5px 30px; 
-            font-size: 1em;
-            border: 1px solid #333; 
-            border-radius: 5px;
-            max-width: calc(100% - 40px); 
-            color: #aaa; 
-        }
-        .search-container input[type="text"]::placeholder {
-            color: #aaa; 
-        }
-        .search-container .search-icon {
-            position: absolute;
-            left: 10px;
-            font-size: 1em;
-            color: #aaa; 
         }
         #acronyms {
             display: flex;
@@ -113,13 +135,14 @@
             box-sizing: border-box;
         }
         .flip-card-front {
-            background-color: #e0f7fa; 
+            background-color: #c4ced4; 
             padding: 20px;
             transition: background-color 0.3s ease, transform 0.3s ease; 
         }
         .flip-card-front:hover {
-            background-color: #b2ebf2; 
+            background-color: #7e93a0; 
             transform: scale(1.05); 
+            color: white;
         }
         .flip-card-back {
             transform: rotateY(180deg);
@@ -185,32 +208,10 @@
             position: relative;
             top: -4px;
         }
-        .button-link {
-            margin: 0 10px;
-            font-size: 1.5em;
-            text-decoration: none;
-            background-color: #007BFF;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-        .button-link:hover {
-            background-color: #0056b3;
-        }
     </style>
 </head>
 <body>
     <div class="header">
-        <div class="category-container">
-            <h1>Funny</h1>
-            <div class="dropdown">
-                <button class="dropbtn">▼</button>
-                <div class="dropdown-content" id="category-dropdown">
-                </div>
-            </div>
-        </div>
-        <a href="index.html" class="button-link">Početna</a>
         <div class="search-container">
             <span class="search-icon">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -219,6 +220,15 @@
                 </svg>
             </span>
             <input type="text" id="search-bar" placeholder="Pretraži...">
+        </div>
+        <a href="index.html" class="button-link">Početna</a>
+    </div>
+    <div class="category-container">
+        <h1 style="color: #42515a;">Funny</h1>
+        <div class="dropdown">
+            <button class="dropbtn">▼</button>
+            <div class="dropdown-content" id="category-dropdown">
+            </div>
         </div>
     </div>
     <div id="acronyms"></div>

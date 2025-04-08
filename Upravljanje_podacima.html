@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upravljanje podacima</title>
     <link rel="stylesheet" href="stil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="header">
+        <a href="index.html" class="home-icon">
+            <i class="fas fa-home"></i>
+        </a>
         <div class="search-container">
             <span class="search-icon">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -31,110 +35,6 @@
     <div id="error-message" style="color: red;"></div>
     <div id="back-to-top"></div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const category = 'Upravljanje_podacima';
-            let akronimiData = [];
-            fetch('akronimi.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok ' + response.statusText);
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    akronimiData = data[category] || [];
-                    const categoryDropdown = document.getElementById('category-dropdown');
-                    for (const cat in data) {
-                        if (cat !== category) {
-                            const categoryLink = document.createElement('a');
-                            categoryLink.href = `${cat}.html`;
-                            categoryLink.textContent = cat.replace(/_/g, ' ');
-                            categoryDropdown.appendChild(categoryLink);
-                        }
-                    }
-
-                    const acronymsDiv = document.getElementById('acronyms');
-                    displayAcronyms(akronimiData, acronymsDiv);
-                })
-                .catch(error => {
-                    document.getElementById('error-message').textContent = 'Error loading JSON: ' + error;
-                    console.error('Error loading JSON:', error);
-                });
-
-            const searchBar = document.getElementById('search-bar');
-            searchBar.addEventListener('input', function() {
-                const searchTerm = searchBar.value.toLowerCase();
-                const filteredData = akronimiData.filter(item =>
-                    item.akronim.toLowerCase().includes(searchTerm) ||
-                    item.puni_naziv.toLowerCase().includes(searchTerm)
-                );
-                const acronymsDiv = document.getElementById('acronyms');
-                displayAcronyms(filteredData, acronymsDiv);
-            });
-
-            const backToTopButton = document.getElementById('back-to-top');
-            backToTopButton.addEventListener('click', function() {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            });
-
-            window.addEventListener('scroll', function() {
-                if (window.scrollY > 200) {
-                    backToTopButton.style.display = 'flex';
-                } else {
-                    backToTopButton.style.display = 'none';
-                }
-            });
-
-            function displayAcronyms(data, container) {
-                container.innerHTML = '';
-                data.forEach(item => {
-                    const acronymDiv = document.createElement('div');
-                    acronymDiv.className = 'acronym';
-                    acronymDiv.innerHTML = `
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <h2>${item.akronim}</h2>
-                            </div>
-                            <div class="flip-card-back" data-definicija="${item.definicija}" data-definicija-hr="${item.definicija_hr}">
-                                <div>
-                                    <p class="full-name">${item.puni_naziv}</p>
-                                    <p class="definition">${item.definicija}</p>
-                                    <div class="language-buttons">
-                                        <button class="btn-hr" onclick="changeLanguage(event, 'hr')">HR</button>
-                                        <button class="btn-en" onclick="changeLanguage(event, 'en')" style="display: none;">EN</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    `;
-                    acronymDiv.querySelector('.flip-card-inner').addEventListener('click', function(event) {
-                        if (!event.target.classList.contains('btn-hr') && !event.target.classList.contains('btn-en')) {
-                            acronymDiv.classList.toggle('flipped');
-                        }
-                    });
-                    container.appendChild(acronymDiv);
-                });
-            }
-
-            window.changeLanguage = function(event, lang) {
-                event.stopPropagation();
-                const definitionElement = event.target.closest('.flip-card-back').querySelector('.definition');
-                const definicija = event.target.closest('.flip-card-back').dataset.definicija;
-                const definicijaHr = event.target.closest('.flip-card-back').dataset.definicijaHr;
-                const btnHr = event.target.closest('.language-buttons').querySelector('.btn-hr');
-                const btnEn = event.target.closest('.language-buttons').querySelector('.btn-en');
-                if (lang === 'hr') {
-                    definitionElement.textContent = definicijaHr;
-                    btnHr.style.display = 'none';
-                    btnEn.style.display = 'inline-block';
-                } else {
-                    definitionElement.textContent = definicija;
-                    btnHr.style.display = 'inline-block';
-                    btnEn.style.display = 'none';
-                }
-            };
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

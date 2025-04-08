@@ -58,7 +58,7 @@
         "akronim": "CSS",
         "puni_naziv": "Cascading Style Sheet",
         "definicija": "Cascading style sheets are used to format the layout of Web pages. They can be used to define text styles, table sizes, and other aspects of Web pages that previously could only be defined in a page's HTML.",
-        "definicija_hr": "Kaskadni stilovi koriste se za oblikovanje izgleda web stranica. Mogu se koristiti za definiranje stilova teksta, veličina tablica i drugih aspekata web stranica koji su prethodno mogli biti definirani samo u HTML-u stranice."
+        "definicija_hr": "CSS je stilski jezik koji se koristi prilikom oblikovanja mrežnih stranica."
       },
       {
         "akronim": "DTD",
@@ -1348,7 +1348,7 @@
         },
         {
           "akronim": "TCP/IP",
-          "puni_naziv": "- tri crne pive / i pelinkovac",
+          "puni_naziv": "tri crne pive / i pelinkovac",
           "definicija": "",
           "definicija_hr": ""
         },

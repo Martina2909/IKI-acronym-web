@@ -3,15 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Funny" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://oziz.ffos.hr/nastava20212022/mslobodanac_21/strucni/Funny.html" />
+    <meta property="og:description" content="Prikazani su akronimi koji pripadaju kategoriji Funny." />
+    <meta property="og:image" content="https://sokrat.ffos.hr/ff-info/images/logo_ccm.png">
     <title>Funny</title>
     <link rel="stylesheet" href="stil.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="header">
+        <div class="header-left">
         <a href="index.html" class="home-icon">
             <i class="fas fa-home"></i>
         </a>
+        <a href="index.html" class="button-link">Početna</a>
+        </div>
+
+        <div class="header-middle">
+        <a href="kviz.html" class="button-link">Kviz</a>
+        </div>
+
+        
         <div class="search-container">
             <span class="search-icon">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -20,13 +34,19 @@
                 </svg>
             </span>
             <input type="text" id="search-bar" placeholder="Pretraži...">
+            
         </div>
-        <a href="index.html" class="button-link">Početna</a>
+        
     </div>
+
+    <a href="kviz.html" class="kviz-mobile-btn">Kviz</a>
+    
     <div class="category-container">
         <h1 style="color: #42515a;">Funny</h1>
         <div class="dropdown">
-            <button class="dropbtn">▼</button>
+            <button class="dropbtn" id="dropdown-button">
+                <span id="dropdown-arrow">▼</span>
+              </button>
             <div class="dropdown-content" id="category-dropdown">
             </div>
         </div>
@@ -35,85 +55,7 @@
     <div id="error-message" style="color: red;"></div>
     <div id="back-to-top"></div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const category = 'Funny';
-            let akronimiData = [];
-            fetch('akronimi.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok ' + response.statusText);
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    akronimiData = data[category] || [];
-                    const categoryDropdown = document.getElementById('category-dropdown');
-                    for (const cat in data) {
-                        if (cat !== category) {
-                            const categoryLink = document.createElement('a');
-                            categoryLink.href = `${cat}.html`;
-                            categoryLink.textContent = cat.replace(/_/g, ' ');
-                            categoryDropdown.appendChild(categoryLink);
-                        }
-                    }
-
-                    const acronymsDiv = document.getElementById('acronyms');
-                    displayAcronyms(akronimiData, acronymsDiv);
-                })
-                .catch(error => {
-                    document.getElementById('error-message').textContent = 'Error loading JSON: ' + error;
-                    console.error('Error loading JSON:', error);
-                });
-
-            const searchBar = document.getElementById('search-bar');
-            searchBar.addEventListener('input', function() {
-                const searchTerm = searchBar.value.toLowerCase();
-                const filteredData = akronimiData.filter(item =>
-                    item.akronim.toLowerCase().includes(searchTerm) ||
-                    item.puni_naziv.toLowerCase().includes(searchTerm)
-                );
-                const acronymsDiv = document.getElementById('acronyms');
-                displayAcronyms(filteredData, acronymsDiv);
-            });
-
-            const backToTopButton = document.getElementById('back-to-top');
-            backToTopButton.addEventListener('click', function() {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            });
-
-            window.addEventListener('scroll', function() {
-                if (window.scrollY > 200) {
-                    backToTopButton.style.display = 'flex';
-                } else {
-                    backToTopButton.style.display = 'none';
-                }
-            });
-
-            function displayAcronyms(data, container) {
-                container.innerHTML = '';
-                data.forEach(item => {
-                    const acronymDiv = document.createElement('div');
-                    acronymDiv.className = 'acronym';
-                    acronymDiv.innerHTML = `
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <h2>${item.akronim}</h2>
-                            </div>
-                            <div class="flip-card-back">
-                                <div>
-                                    <p class="full-name">${item.puni_naziv}</p>
-                                </div>
-                            </div>
-                        </div>
-                    `;
-                    acronymDiv.querySelector('.flip-card-inner').addEventListener('click', function() {
-                        acronymDiv.classList.toggle('flipped');
-                    });
-                    container.appendChild(acronymDiv);
-                });
-            }
-        });
-    </script>
+    <script src="script.js"></script>
+    
 </body>
 </html>

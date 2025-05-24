@@ -1087,7 +1087,7 @@
     {
         "akronim": "CV",
         "puni_naziv": "Computer Vision",
-        "definicija": "Computer vision is a field of artificial intelligence (AI) that uses machine learning and neural networks to teach computers and systems to derive meaningful information from digital images, videos and other visual inputs—and to make recommendations or take actions when they see defects or issues.",
+        "definicija": "Computer vision is a field of artificial intelligence (AI) that uses machine learning and neural networks to teach computers and systems to derive meaningful information from digital images, videos and other visual inputs and to make recommendations or take actions when they see defects or issues.",
         "definicija_hr": "Računalni vid je područje umjetničke inteligencije (AI) koje koristi strojno učenje i neuronske mreže kako bi naučilo računala i sustave izvoditi značajne informacije iz digitalnih slika, videa i drugih vizualnih unosa te davati preporuke ili poduzimati radnje kada prepoznaju greške ili probleme."
     },
     {
@@ -1270,91 +1270,91 @@
     "Funny": [
         {
           "akronim": "ADO",
-          "puni_naziv": "alkohol dolazi odmah",
+          "puni_naziv": "Alkohol Dolazi Odmah",
           "definicija": "",
           "definicija_hr": ""
         },
         {
           "akronim": "ARP",
-          "puni_naziv": "ajmo radije pit'",
+          "puni_naziv": "Ajmo Radije Pit'",
           "definicija": "",
           "definicija_hr": ""
         },
         {
           "akronim": "ASP",
-          "puni_naziv": "ajmo svi pit'",
+          "puni_naziv": "Ajmo Svi Pit'",
           "definicija": "",
           "definicija_hr": ""
         },
         {
           "akronim": "DHCP",
-          "puni_naziv": "dvije hladne crne pive",
+          "puni_naziv": "Dvije Hladne Crne Pive",
           "definicija": "",
           "definicija_hr": ""
         },
         {
           "akronim": "DNS",
-          "puni_naziv": "daj nam Stellu",
+          "puni_naziv": "Daj Nam Stellu",
           "definicija": "",
           "definicija_hr": ""
         },
         {
           "akronim": "GIS",
-          "puni_naziv": "gorki i Stella",
+          "puni_naziv": "Gorki I Stella",
           "definicija": "",
           "definicija_hr": ""
         },
         {
           "akronim": "GPS",
-          "puni_naziv": "gorki pelinkovac svima",
+          "puni_naziv": "Gorki Pelinkovac Svima",
           "definicija": "",
           "definicija_hr": ""
         },
         {
           "akronim": "ISA",
-          "puni_naziv": "idu stari alkoši",
+          "puni_naziv": "Idu Stari Alkoši",
           "definicija": "",
           "definicija_hr": ""
         },
         {
           "akronim": "NET",
-          "puni_naziv": "donesi ovamo travaricu, neka etanol teče",
+          "puni_naziv": "Donesi ovamo travaricu, Neka Etanol Teče",
           "definicija": "",
           "definicija_hr": ""
         },
         {
           "akronim": "ODBC",
-          "puni_naziv": "odnesi dva ballantinesa cugerima",
+          "puni_naziv": "Odnesi Dva Ballantinesa Cugerima",
           "definicija": "",
           "definicija_hr": ""
         },
         {
           "akronim": "PHP",
-          "puni_naziv": "pijmo hrvatska piva!",
+          "puni_naziv": "Pijmo Hrvatska Piva!",
           "definicija": "",
           "definicija_hr": ""
         },
         {
           "akronim": "PPP",
-          "puni_naziv": "pijem pivu popodne ",
+          "puni_naziv": "Pijem Pivu Popodne ",
           "definicija": "",
           "definicija_hr": ""
         },
         {
           "akronim": "SLIP",
-          "puni_naziv": "sad litru i pelinkovac ",
+          "puni_naziv": "Sad Litru I Pelinkovac ",
           "definicija": "",
           "definicija_hr": ""
         },
         {
           "akronim": "TCP/IP",
-          "puni_naziv": "tri crne pive / i pelinkovac",
+          "puni_naziv": "Tri Crne Pive / I Pelinkovac",
           "definicija": "",
           "definicija_hr": ""
         },
         {
           "akronim": "WINS",
-          "puni_naziv": "vina ima, natoči svima",
+          "puni_naziv": "Vina Ima, Natoči Svima",
           "definicija": "",
           "definicija_hr": ""
         }

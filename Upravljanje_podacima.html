@@ -3,15 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Upravljanje podacima" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://oziz.ffos.hr/nastava20212022/mslobodanac_21/strucni/Upravljanje_podacima.html" />
+    <meta property="og:description" content="Prikazani su akronimi koji pripadaju kategoriji Upravljanje podacima." />
+    <meta property="og:image" content="https://sokrat.ffos.hr/ff-info/images/logo_ccm.png">
     <title>Upravljanje podacima</title>
     <link rel="stylesheet" href="stil.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="header">
+        <div class="header-left">
         <a href="index.html" class="home-icon">
             <i class="fas fa-home"></i>
         </a>
+        <a href="index.html" class="button-link">Početna</a>
+        </div>
+
+        <div class="header-middle">
+        <a href="kviz.html" class="button-link">Kviz</a>
+        </div>
+        
         <div class="search-container">
             <span class="search-icon">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -20,13 +33,19 @@
                 </svg>
             </span>
             <input type="text" id="search-bar" placeholder="Pretraži...">
+            
         </div>
-        <a href="index.html" class="button-link">Početna</a>
+        
     </div>
+    
+    <a href="kviz.html" class="kviz-mobile-btn">Kviz</a>
+
     <div class="category-container">
         <h1 style="color: #42515a;">Upravljanje podacima</h1>
         <div class="dropdown">
-            <button class="dropbtn">▼</button>
+            <button class="dropbtn" id="dropdown-button">
+                <span id="dropdown-arrow">▼</span>
+              </button>
             <div class="dropdown-content" id="category-dropdown">
             </div>
         </div>
@@ -36,5 +55,6 @@
     <div id="back-to-top"></div>
 
     <script src="script.js"></script>
+    
 </body>
 </html>

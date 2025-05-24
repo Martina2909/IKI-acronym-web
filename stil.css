@@ -181,6 +181,26 @@ header {
     color: #aaa;
 }
 
+.kviz-mobile-btn {
+    display: none;
+    width: 100vw;        
+    margin: 0;
+    padding: 16px 0;      
+    background: #596165;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 0;   
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    box-shadow: none;
+    border: none;
+}
+
 .category-container {
     display: flex;
     align-items: center;
@@ -663,7 +683,30 @@ header {
 
 /* Mobiteli */
 @media (max-width: 768px) {
-    .acronym {
+
+    .kviz-page .acronym {
+        flex: 1 1 48%;          /* cards in two columns */
+        margin: 6px 1%;         /* tighter spacing */
+        padding: 10px 5px;      /* less padding */
+        max-width: 48%;         /* smaller width */
+        min-height: 100px;      /* smaller height */
+        font-size: 1.05em;      /* smaller font */
+        box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      }
+      .kviz-page .flip-card-front {
+        font-size: 1em;
+        padding: 10px 2px;
+      }
+      .kviz-page .flip-card-back .full-name {
+        font-size: 1em;
+      }
+      .kviz-page #acronyms {
+        gap: 0;
+        padding: 10px 0 0 0;
+        justify-content: flex-start;
+      }
+
+      .acronym {
         flex: 1 1 100%; 
         margin: 10px auto;
         padding: 15px;
@@ -697,7 +740,15 @@ header {
         padding: 20px;
     }
 
-    
+    .kviz-mobile-btn {
+        display: block;
+        margin-top: -30px;
+    }
+
+    .kviz-desktop-btn {
+        display: none;
+    }
+
     .button-bottom-center {
         position: static;
         margin: 40px auto;
@@ -717,6 +768,7 @@ header {
         display: inline-block; 
         position: absolute;
         left: 20px;
+        margin-top: -15px;
     }
 
     .header .button-link {
@@ -728,12 +780,14 @@ header {
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
-        height: 80px;
+        height: 70px;
         background: linear-gradient(45deg, #b72026, #42515a);
         position: fixed;
         top: 0;
         width: 100%;
         z-index: 1000;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
     }
 
     .dropdown {
@@ -753,9 +807,11 @@ header {
         align-items: center;
         position: relative;
         margin-left: auto;
+        margin-right: -10px;
+        margin-top: -15px;
         justify-content: flex-end;
-        max-width: 200px;
-        width: 100%;
+        max-width: 150px;
+        width: auto;
         flex-shrink: 1;
     }
 
@@ -802,5 +858,9 @@ header {
     #category-dropdown.hidden {
         display: none;
     }
+
+    .quiz-header {
+        text-align: center;
+      }
     
-}
+    }

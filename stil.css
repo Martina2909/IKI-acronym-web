@@ -685,15 +685,30 @@ header {
 @media (max-width: 768px) {
     .acronym {
         flex: 1 1 100%; 
-        margin: 10px auto;
-        padding: 15px;
+        margin: 2px auto;
+        padding: 10px;
         max-width: 100%;
         overflow: hidden;
         word-wrap: break-word;
         white-space: normal;
-        min-height: 400px;
-        color: rgb(82, 78, 78);
+        min-height: 60px;
+        color: rgb(33, 29, 29);
     }
+
+    .flip-card-front {
+        font-size: 30px;
+      }
+      .full-name {
+        font-size: 20px !important;
+      }
+
+      .flip-card-inner,
+      .flip-card-front,
+      .flip-card-back {
+        height: 70% !important;
+        min-height: 0 !important;
+        padding: 4px !important;
+      }
 
     .category {
         width: 100%;
@@ -833,5 +848,9 @@ header {
     #category-dropdown.hidden {
         display: none;
     }
+
+    .quiz-header {
+        text-align: center;
+      }
     
 }

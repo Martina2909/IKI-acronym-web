@@ -1,7 +1,9 @@
    *, *::before, *::after {
     box-sizing: border-box;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -607,30 +609,48 @@ header {
     }
 
     /*header*/
-    .header{
-        align-items: center;
-        background: linear-gradient(45deg, #b72026, #42515a);
-        display: flex;
-        flex-wrap: wrap;
-        height: 80px;
-        justify-content: space-between;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 1000;
-    }
-    .header-middle .button-link {
-        display: inline-block;
-        position: absolute;
-        background-color: transparent;
-        border: 2px solid white;
-        border-radius: 5px;
-        color: white;
-        font-size: 1.5em;
-        padding: 8px 16px; 
-        text-decoration: none;
-        transition: background-color 0.3s ease, color 0.3s ease; 
-    }
+    .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(45deg, #b72026, #42515a);
+    z-index: 1000;
+    padding: 0 40px;
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    min-width: 0;
+  }
+  .header-middle {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+  }
+  .header-middle .button-link {
+    display: inline-block !important;
+    background: transparent !important;
+    border: 2px solid #fff !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+    font-size: 1.5em !important;
+    padding: 10px 20px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    z-index: 10 !important;
+    opacity: 1 !important;
+    position: relative !important;
+    visibility: visible !important;
+  }
     .header .home-icon {
         display: inline-block; 
         left: 20px;
@@ -656,14 +676,13 @@ header {
 
     /*search bar*/
     .search-container {
-        align-items: center;
-        display: flex;
-        flex-shrink: 1;
-        justify-content: flex-end;
-        margin-left: auto;
-        max-width: 200px;
-        position: relative;
-        width: 100%;
+         display: flex;
+    align-items: center;
+    margin-left: auto;
+    max-width: 200px;
+    width: 100%;
+    flex: 1;
+    position: relative;
     }
     .search-container input[type="text"] {
         border: 1px solid #333;
@@ -842,9 +861,6 @@ header {
         top: 0;
         width: 100%;
         z-index: 1000;
-    }
-    .header .button-link {
-        display: none; 
     }
     .header .home-icon {
         display: inline-block; 

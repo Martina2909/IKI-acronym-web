@@ -396,18 +396,7 @@ header {
     width: 0;
 }
 .kviz-tablet-btn {
-    background-color: transparent;
-    border: 2px solid white;
-    border-radius: 5px;
-    color: white;
-    font-size: 1.5em;
-    padding: 10px 20px;
-    text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-.kviz-tablet-btn:hover {
-    background-color: white;
-    color: #42515a;
+    display: none !important;
 }
 
 
@@ -489,9 +478,6 @@ header {
     }
 
     /*gumbi*/
-     .kviz-tablet-btn {
-        display: none !important;
-    }
     .button-bottom-center {
         margin: 40px auto;
         position: absolute;
@@ -519,10 +505,6 @@ header {
     }
 
     .header .home-icon {
-        display: none;
-    }
-
-    .kviz-tablet-btn {
         display: none;
     }
 
@@ -642,23 +624,24 @@ header {
     z-index: 1000;
     padding: 0 40px;
   }
+  .header-left .home-icon {
+    display: none;
+  }
+  
   .kviz-tablet-btn {
-        display: inline-block;
+        display: inline-block !important;
         background-color: transparent;
         border: 2px solid white;
         border-radius: 5px;
         color: white;
         font-size: 1.5em;
-        padding: 8px 16px;
+        padding: 10px 20px;
         text-decoration: none;
         transition: background-color 0.3s ease, color 0.3s ease;
     }
     .kviz-tablet-btn:hover {
         background-color: white;
         color: #42515a;
-    }
-    .header-middle .button-link:not(.kviz-tablet-btn) {
-        display: none !important;
     }
     .header .home-icon {
         display: inline-block; 
@@ -833,9 +816,6 @@ header {
     }
 
     /*gumbi*/
-     .header-middle .kviz-tablet-btn {
-        display: none !important;
-    }
     .button-bottom-center {
         display: block;
         margin: 20px auto;
@@ -874,14 +854,14 @@ header {
         width: 100%;
         z-index: 1000;
     }
+    .header .button-link {
+    display: none;
+  }
     .header .home-icon {
         display: inline-block; 
         left: 20px;
         margin-top: -15px;
         position: absolute;
-    }
-    .kviz-tablet-btn {
-        display: none;
     }
 
     /*padajući izbornik*/

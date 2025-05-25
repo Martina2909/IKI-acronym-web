@@ -624,9 +624,6 @@ header {
     z-index: 1000;
     padding: 0 40px;
   }
-  .header-left .home-icon {
-    display: none;
-  }
   
   .kviz-tablet-btn {
         display: inline-block !important;
@@ -644,9 +641,7 @@ header {
         color: #42515a;
     }
     .header .home-icon {
-        display: inline-block; 
-        left: 20px;
-        position: absolute;
+        display: none;
     }
 
     /*padajući izbornik*/

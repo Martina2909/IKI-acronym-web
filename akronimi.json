@@ -119,12 +119,6 @@
 
     "Tehnologije_povezivanja": [
       {
-        "akronim": "ADSL",
-        "puni_naziv": "Asymmetric Digital Subscriber Line",
-        "definicija": "A digital local loop using copper facilities and providing greater bandwidth in one direction than the other.",
-        "definicija_hr": "Digitalna lokalna petlja koja koristi bakrene uređaje i pruža veću propusnost u jednom smjeru nego u drugom."
-      },
-      {
         "akronim": "ARPANET",
         "puni_naziv": "Advance Research Projects Agency Network",
         "definicija": "A packet-switched network developed in the early 1970s. The “father” of today’s Internet. ARPANET was decommissioned in June 1990.",
@@ -155,24 +149,6 @@
         "definicija_hr": "Mrežni poslužitelj koristi ovaj protokol za dinamičku dodjelu IP adresa umreženim računalima. DHCP poslužitelj čeka da se računalo poveže s njim, a zatim mu dodjeljuje IP adresu s glavnog popisa pohranjenog na poslužitelju."
       },
       {
-        "akronim": "DNS",
-        "puni_naziv": "Domain Name Service / Server / System",
-        "definicija": "The way that Internet domain names are located and translated into IP addresses. A domain name is a meaningful and easy-to-remember 'handle' for an Internet address.",
-        "definicija_hr": "Način na koji se nazivi internetskih domena lociraju i prevode u IP adrese. Naziv domene je smislena i lako pamtljiva 'ručka' za internetsku adresu."
-      },
-      {
-        "akronim": "DSL",
-        "puni_naziv": "Digital Subscriber Line",
-        "definicija": "It is medium for transferring data over regular phone lines and can be used to connect to the Internet.",
-        "definicija_hr": "Sredstvo je za prijenos podataka putem običnih telefonskih linija i može se koristiti za spajanje na Internet."
-      },
-      {
-        "akronim": "EDI",
-        "puni_naziv": "Electronic Data Interchange",
-        "definicija": "The exchange of structured electronic data between computer systems according to predefined message standards.",
-        "definicija_hr": "Razmjena strukturiranih elektroničkih podataka između računalnih sustava prema unaprijed definiranim standardima poruka."
-      },
-      {
         "akronim": "GPRS",
         "puni_naziv": "General Packet Radio Service",
         "definicija": "GPRS is a packet-oriented overlay to GSM networks supporting connection- and connectionless-oriented services and diverse quality-of-service mechanisms. The theoretical maximum speed is 171.2 Kbps, but real-life user throughput is expected to be 56 Kbps or less.",
@@ -183,18 +159,6 @@
         "puni_naziv": "Global Positioning System",
         "definicija": "A a satellite navigation system used to determine ground position and velocity (location, speed, and direction). Though it was created and originally used by the U.S. military, GPS is now available to the general public all over the world.",
         "definicija_hr": "Satelitski navigacijski sustav koji se koristi za određivanje položaja i brzine na tlu (lokacija, brzina i smjer). Iako ga je stvorila i izvorno koristila američka vojska, GPS je sada dostupan široj javnosti diljem svijeta."
-      },
-      {
-        "akronim": "ICANN",
-        "puni_naziv": "Internet Corporation For Assigned Names and Numbers",
-        "definicija": "The ICANN is an non-profit corporation that is responsible for allocating IP address and managing the domain name system. Every computer connected to the Internet, from servers to home PCs, has an IP address.",
-        "definicija_hr": "ICANN je neprofitna korporacija koja je odgovorna za dodjelu IP adresa i upravljanje sustavom naziva domene. Svako računalo spojeno na Internet, od poslužitelja do kućnog računala, ima IP adresu."
-      },
-      {
-        "akronim": "IMAP",
-        "puni_naziv": "Internet Message Access Protocol",
-        "definicija": "It is a method of accessing e-mail messages on a server without having to download them to your local hard drive. This is the main difference between IMAP and another popular e-mail protocol called 'POP3'. POP3 requires users to download messages to their hard drive before reading them. The advantage of using an IMAP mail server is that users can check their mail from multiple computers and always see the same messages.",
-        "definicija_hr": "To je metoda pristupa porukama e-pošte na poslužitelju bez potrebe za njihovim preuzimanjem na vaš lokalni tvrdi disk. Ovo je glavna razlika između IMAP-a i drugog popularnog protokola e-pošte koji se zove 'POP3'. POP3 zahtijeva od korisnika preuzimanje poruka na svoj tvrdi disk prije nego što ih pročitaju. Prednost korištenja IMAP poslužitelja pošte je ta što korisnici mogu provjeravati svoju poštu s više računala i uvijek vidjeti iste poruke."
       },
       {
         "akronim": "ISP",
@@ -333,30 +297,6 @@
         "definicija_hr": "Mreža koja prebacuje pakete, razvijena početkom 1970-ih. 'Otac' današnjeg Interneta. ARPANET je ukinut u lipnju 1990. godine."
       },
       {
-        "akronim": "CHAP",
-        "puni_naziv": "Challenge-Handshake Authentication Protocol",
-        "definicija": "An authentication protocol used in Point-to-Point Protocol to validate users in most network operating systems. It’s also used in other protocols such as RADIUS and Diameter.",
-        "definicija_hr": "Protokol za autentifikaciju koji se koristi u Point-to-Point protokolu za validaciju korisnika u većini mrežnih operacijskih sustava. Također se koristi u drugim protokolima kao što su RADIUS i Diameter."
-      },
-      {
-        "akronim": "CHAT",
-        "puni_naziv": "Conversational Hypertext Access Technology",
-        "definicija": "A form of interactive online typewritten communication that allows participants ('members') to engage in text-message conferencing, via real-time computer networking over designated communications facilities.",
-        "definicija_hr": "Oblik interaktivne online pisane komunikacije koji omogućava sudionicima ('članovima') sudjelovanje u konferencijama putem tekstualnih poruka, putem računalne mreže u stvarnom vremenu preko označenih komunikacijskih sustava."
-      },
-      {
-        "akronim": "CNAME",
-        "puni_naziv": "Canonical name",
-        "definicija": "A host's official name as opposed to an alias. The official name is the first hostname listed for its Internet address in the hostname database.",
-        "definicija_hr": "Službeno ime hosta u odnosu na alias. Službeno ime je prvo ime hosta navedeno za njegovu internetsku adresu u bazi podataka imena hosta."
-      },
-      {
-        "akronim": "DHCP",
-        "puni_naziv": "Dynamic Host Configuration Protocol",
-        "definicija": "A network server uses this protocol to dynamically assign IP addresses to networked computers. The DHCP server waits for a computer to connect to it, then assigns it an IP address from a master list stored on the server.",
-        "definicija_hr": "Mrežni poslužitelj koristi ovaj protokol za dinamičko dodjeljivanje IP adresa računalima u mreži. DHCP poslužitelj čeka da se računalo poveže s njim, a zatim mu dodijeli IP adresu s glavne liste pohranjene na poslužitelju."
-      },
-      {
         "akronim": "DNS",
         "puni_naziv": "Domain Name Service / Server / System",
         "definicija": "The way that Internet domain names are located and translated into IP addresses. A domain name is a meaningful and easy-to-remember 'handle' for an Internet address.",
@@ -375,18 +315,6 @@
         "definicija_hr": "Razmjena strukturiranih elektroničkih podataka između računalnih sustava prema unaprijed definiranim standardima poruka."
       },
       {
-        "akronim": "GPRS",
-        "puni_naziv": "General Packet Radio Service",
-        "definicija": "GPRS is a packet-oriented overlay to GSM networks supporting connection- and connectionless-oriented services and diverse quality-of-service mechanisms. The theoretical maximum speed is 171.2 Kbps, but real-life user throughput is expected to be 56 Kbps or less.",
-        "definicija_hr": "GPRS je paketni sloj koji se nadograđuje na GSM mreže i podržava usluge orijentirane na povezivanje i bez povezivanja, kao i razne mehanizme kvalitete usluge. Teorijska maksimalna brzina je 171,2 Kbps, ali stvarna brzina korisnika očekuje se da bude 56 Kbps ili manje."
-      },
-      {
-        "akronim": "GPS",
-        "puni_naziv": "Global Positioning System",
-        "definicija": "A satellite navigation system used to determine ground position and velocity (location, speed, and direction). Though it was created and originally used by the U.S. military, GPS is now available to the general public all over the world.",
-        "definicija_hr": "Satelitski navigacijski sustav koji se koristi za određivanje zemljopisne pozicije i brzine (lokacija, brzina i smjer). Iako je stvoren i prvotno korišten od strane američke vojske, GPS je sada dostupan široj javnosti diljem svijeta."
-      },
-      {
         "akronim": "ICANN",
         "puni_naziv": "Internet Corporation For Assigned Names and Numbers",
         "definicija": "The ICANN is a non-profit corporation that is responsible for allocating IP addresses and managing the domain name system. Every computer connected to the Internet, from servers to home PCs, has an IP address.",
@@ -395,8 +323,8 @@
       {
         "akronim": "IMAP",
         "puni_naziv": "Internet Message Access Protocol",
-        "definicija": "It is a method of accessing e-mail messages on a server without having to download them to your local hard drive. This is the main difference between IMAP and another popular e-mail protocol called 'POP3'. POP3 requires users to download messages to their hard drive before reading them. The advantage of using an IMAP mail server is that users can check their mail from multiple computers and always see the same messages.",
-        "definicija_hr": "To je metoda pristupa e-mail porukama na poslužitelju bez potrebe za preuzimanjem na lokalni tvrdi disk. Ovo je glavna razlika između IMAP-a i drugog popularnog e-mail protokola nazvanog 'POP3'. POP3 zahtijeva da korisnici preuzmu poruke na svoj tvrdi disk prije nego ih pročitaju. Prednost korištenja IMAP poslužitelja je što korisnici mogu provjeriti svoju poštu s više računala i uvijek vidjeti iste poruke."
+        "definicija": "It is a method of accessing e-mail messages on a server without having to download them to your local hard drive. This is the main difference between IMAP and another popular e-mail protocol called 'POP3'. POP3 requires users to download messages to their hard drive before reading them.",
+        "definicija_hr": "To je metoda pristupa e-mail porukama na poslužitelju bez potrebe za preuzimanjem na lokalni tvrdi disk. Ovo je glavna razlika između IMAP-a i drugog popularnog e-mail protokola nazvanog 'POP3'. POP3 zahtijeva da korisnici preuzmu poruke na svoj tvrdi disk prije nego ih pročitaju."
       }
     ],
     
@@ -893,8 +821,8 @@
       {
         "akronim": "LDAP",
         "puni_naziv": "Lightweight Directory Access Protocol",
-        "definicija": "If you want to make directory information available over the Internet, this is the way to do it. LDAP is a streamlined version of an earlier directory standard called X.500. What makes LDAP so useful is that it works great over TCP/IP networks, so information can be accessed through LDAP by anyone with an Internet connection.",
-        "definicija_hr": "Ako želite omogućiti pristup informacijama u direktoriju putem interneta, LDAP je pravi način za to. LDAP je pojednostavljena verzija starijeg standarda imenika nazvanog X.500. Ono što LDAP čini korisnim je to što izvrsno radi na TCP/IP mrežama, omogućujući pristup informacijama bilo kojem korisniku s internetskom vezom."
+        "definicija": "LDAP is a streamlined version of an earlier directory standard called X.500. What makes LDAP so useful is that it works great over TCP/IP networks, so information can be accessed through LDAP by anyone with an Internet connection.",
+        "definicija_hr": "LDAP je pojednostavljena verzija starijeg standarda imenika nazvanog X.500. Ono što LDAP čini korisnim je to što izvrsno radi na TCP/IP mrežama, omogućujući pristup informacijama bilo kojem korisniku s internetskom vezom."
       },
       {
         "akronim": "RMM",

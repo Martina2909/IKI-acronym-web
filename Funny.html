@@ -21,8 +21,9 @@
         <a href="index.html" class="button-link">Početna</a>
         </div>
 
-        <div class="header-middle">
+       <div class="header-middle">
         <a href="kviz.html" class="button-link">Kviz</a>
+        <a href="kviz.html" class="kviz-tablet-btn">Kviz</a>
         </div>
 
         
@@ -38,6 +39,8 @@
         </div>
         
     </div>
+
+    <a href="kviz.html" class="kviz-mobile-btn">Kviz</a>
     
     <div class="category-container">
         <h1 style="color: #42515a;">Funny</h1>
@@ -54,6 +57,22 @@
     <div id="back-to-top"></div>
 
     <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+  function hideLanguageButtons() {
+    document.querySelectorAll('.language-buttons').forEach(function(el) {
+      el.style.display = 'none';
+    });
+  }
+
+  hideLanguageButtons();
+  const acronymsDiv = document.getElementById('acronyms');
+  if (acronymsDiv) {
+    const observer = new MutationObserver(hideLanguageButtons);
+    observer.observe(acronymsDiv, { childList: true, subtree: true });
+  }
+});
+    </script>
     
 </body>
 </html>

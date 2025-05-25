@@ -396,6 +396,9 @@ header {
     width: 0;
 }
 
+.kviz-tablet-btn {
+    display: none !important;
+}
 
 
 /* Laptop */
@@ -503,6 +506,10 @@ header {
     }
 
     .header .home-icon {
+        display: none;
+    }
+
+    .kviz-tablet-btn {
         display: none;
     }
 
@@ -622,35 +629,19 @@ header {
     z-index: 1000;
     padding: 0 40px;
   }
-  .header-left {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    flex: 1;
-    min-width: 0;
-  }
-  .header-middle {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    min-width: 0;
-  }
-  .header-middle .button-link {
-    display: inline-block !important;
-    background: transparent !important;
-    border: 2px solid #fff !important;
-    border-radius: 5px !important;
-    color: #fff !important;
-    font-size: 1.5em !important;
-    padding: 10px 20px !important;
-    font-weight: bold !important;
-    text-decoration: none !important;
-    z-index: 10 !important;
-    opacity: 1 !important;
-    position: relative !important;
-    visibility: visible !important;
-  }
+  .kviz-tablet-btn {
+         background-color: transparent;
+        border: 2px solid white;
+        border-radius: 5px;
+        color: white;
+        font-size: 1.5em;
+        padding: 8px 16px; 
+        text-decoration: none;
+        transition: background-color 0.3s ease, color 0.3s ease; 
+    }
+    .header-middle .button-link:not(.kviz-tablet-btn) {
+        display: none !important;
+    }
     .header .home-icon {
         display: inline-block; 
         left: 20px;
@@ -867,6 +858,9 @@ header {
         left: 20px;
         margin-top: -15px;
         position: absolute;
+    }
+    .kviz-tablet-btn {
+        display: none;
     }
 
     /*padajući izbornik*/

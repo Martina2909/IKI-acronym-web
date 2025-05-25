@@ -95,8 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
         searchBar.addEventListener('input', function() {
             const searchTerm = searchBar.value.toLowerCase();
             const filteredData = akronimiData.filter(item =>
-                item.akronim.toLowerCase().includes(searchTerm) ||
-                item.puni_naziv.toLowerCase().includes(searchTerm)
+                item.akronim.toLowerCase().startsWith(searchTerm)
             );
             const acronymsDiv = document.getElementById('acronyms');
             if (acronymsDiv) {
@@ -124,9 +123,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const dropdownContent = document.getElementById('category-dropdown');
     const dropdownArrow = document.getElementById('dropdown-arrow');
 
-    dropdownContent.classList.add('hidden');
+    if (dropdownContent) {
+        dropdownContent.classList.add('hidden');
+    }
 
-    
     if (dropdownArrow) {
         dropdownArrow.textContent = '▼'; 
     }

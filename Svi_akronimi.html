@@ -23,8 +23,8 @@
 
         <div class="header-middle">
         <a href="kviz.html" class="button-link">Kviz</a>
+        <a href="kviz.html" class="kviz-tablet-btn">Kviz</a>
         </div>
-
         
         <div class="search-container">
             <span class="search-icon">
@@ -34,10 +34,11 @@
                 </svg>
             </span>
             <input type="text" id="search-bar" placeholder="Pretraži...">
-            
         </div>
-        
     </div>
+
+    <a href="kviz.html" class="kviz-mobile-btn">Kviz</a>
+    
     <div class="category-container">
         <h1 style="color: #42515a; text-align: center;">Svi akronimi</h1>
     </div>
@@ -81,8 +82,7 @@
             searchBar.addEventListener('input', function() {
                 const searchTerm = searchBar.value.toLowerCase();
                 const filteredData = akronimiData.filter(item =>
-                    item.akronim.toLowerCase().includes(searchTerm) ||
-                    item.puni_naziv.toLowerCase().includes(searchTerm)
+                    item.akronim.toLowerCase().startsWith(searchTerm)
                 );
                 const acronymsDiv = document.getElementById('acronyms');
                 displayAcronyms(filteredData, acronymsDiv);
@@ -101,7 +101,6 @@
                 }
             });
 
-            // Display acronyms and their details
             function displayAcronyms(data, container) {
                 container.innerHTML = '';
                 data.forEach(item => {
@@ -115,10 +114,10 @@
                             <div class="flip-card-back" data-definicija="${item.definicija}" data-definicija-hr="${item.definicija_hr}">
                                 <div>
                                     <p class="full-name">${item.puni_naziv}</p>
-                                    <p class="definition">${item.definicija}</p> <!-- Početna engleska definicija -->
+                                    <p class="definition">${item.definicija}</p> 
                                     <div class="language-buttons">
-                                        <button class="btn-hr" onclick="changeLanguage(event, 'hr')">HR</button> <!-- HR gumb prikazan -->
-                                        <button class="btn-en" onclick="changeLanguage(event, 'en')" style="display: none;">EN</button> <!-- EN gumb skriven -->
+                                        <button class="btn-hr" onclick="changeLanguage(event, 'hr')">HR</button> 
+                                        <button class="btn-en" onclick="changeLanguage(event, 'en')" style="display: none;">EN</button> 
                                     </div>
                                 </div>
                             </div>
@@ -138,19 +137,19 @@
                 
                 const flipCardBack = event.target.closest('.flip-card-back');
                 const definitionElement = flipCardBack.querySelector('.definition');
-                const definicija = flipCardBack.dataset.definicija;  // Engleska definicija
-                const definicijaHr = flipCardBack.dataset.definicijaHr;  // Hrvatska definicija
+                const definicija = flipCardBack.dataset.definicija;  
+                const definicijaHr = flipCardBack.dataset.definicijaHr;  
                 const btnHr = flipCardBack.querySelector('.btn-hr');
                 const btnEn = flipCardBack.querySelector('.btn-en');
                 
                 if (lang === 'hr') {
-                    definitionElement.textContent = definicijaHr;  // Prikazivanje hrvatske definicije
-                    btnHr.style.display = 'none';  // Sakrij HR gumb
-                    btnEn.style.display = 'inline-block';  // Prikazivanje EN gumba
+                    definitionElement.textContent = definicijaHr;  
+                    btnHr.style.display = 'none'; 
+                    btnEn.style.display = 'inline-block';  
                 } else {
-                    definitionElement.textContent = definicija;  // Prikazivanje engleske definicije
-                    btnHr.style.display = 'inline-block';  // Prikazivanje HR gumba
-                    btnEn.style.display = 'none';  // Sakrij EN gumb
+                    definitionElement.textContent = definicija; 
+                    btnHr.style.display = 'inline-block';  
+                    btnEn.style.display = 'none';  
                 }
             };
         });

@@ -41,34 +41,41 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function displayAcronyms(data, container) {
-        container.innerHTML = '';
-        data.forEach(item => {
-            const acronymDiv = document.createElement('div');
-            acronymDiv.className = 'acronym';
-            acronymDiv.innerHTML = `
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <div>${item.akronim}</div>
-                    </div>
-                    <div class="flip-card-back">
-                        <div>
-                            <p class="full-name">${item.puni_naziv}</p>
-                            <p class="definition" id="definition-${item.akronim}">${item.definicija}</p>
-                            <div class="language-buttons">
-                                <button class="btn-en" onclick="changeLanguage(event, '${item.akronim}', 'en')" style="display: none;">EN</button>
-                                <button class="btn-hr" onclick="changeLanguage(event, '${item.akronim}', 'hr')">HR</button>
+                container.innerHTML = '';
+                data.forEach(item => {
+                    const acronymDiv = document.createElement('div');
+                    acronymDiv.className = 'acronym';
+                    acronymDiv.innerHTML = `
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div>${item.akronim}</div>
+                            </div>
+                            <div class="flip-card-back" data-definicija="${item.definicija}" data-definicija-hr="${item.definicija_hr}">
+                                <div>
+                                    <p class="full-name">${item.puni_naziv}</p>
+                                    <p class="definition" id="definition-${item.akronim}">
+                                    ${item.definicija || item.definicija_hr || ''}
+                                </p>
+                               ${item.definicija_hr && item.definicija ? `
+                                <div class="language-buttons">
+                                    <button class="btn-hr" onclick="changeLanguage(event, '${item.akronim}', 'hr')">HR</button>
+                                    <button class="btn-en" onclick="changeLanguage(event, '${item.akronim}', 'en')" style="display: none;">EN</button>
+                                </div>
+                            ` : ''}
+
+
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            `;
-            acronymDiv.querySelector('.flip-card-inner').addEventListener('click', function() {
-                acronymDiv.classList.toggle('flipped');
-            });
-            container.appendChild(acronymDiv);
-        });
-    }
-
+                    `;
+                    acronymDiv.querySelector('.flip-card-inner').addEventListener('click', function(event) {
+                        if (!event.target.classList.contains('btn-hr') && !event.target.classList.contains('btn-en')) {
+                            acronymDiv.classList.toggle('flipped');
+                        }
+                    });
+                    container.appendChild(acronymDiv);
+                });
+            }
     window.changeLanguage = function(event, akronim, lang) {
         event.stopPropagation();
         const definitionElement = document.getElementById(`definition-${akronim}`);

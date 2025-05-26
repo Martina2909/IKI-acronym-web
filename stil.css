@@ -80,13 +80,7 @@ h1 {
     color: #42515a;
 }
 
-.header .home-icon {
-    color: white;
-    display: none; 
-    font-size: 1.5em;
-    padding: 10px;
-    text-decoration: none;
-}
+
 
 /*gumbi i kategorije*/
 .button {
@@ -398,7 +392,9 @@ header {
 .kviz-tablet-btn {
     display: none !important;
 }
-
+.home-icon {
+    display: none;
+}
 
 /* Laptop */
 @media (min-width: 1025px) and (max-width: 1280px) { 
@@ -478,6 +474,9 @@ header {
     }
 
     /*gumbi*/
+     .home-icon {
+        display: none !important;
+    }
     .button-bottom-center {
         margin: 40px auto;
         position: absolute;
@@ -504,9 +503,6 @@ header {
         transition: background-color 0.3s ease, color 0.3s ease; 
     }
 
-    .header .home-icon {
-        display: none;
-    }
 
     /*search bar*/
     .search-container {
@@ -595,6 +591,9 @@ header {
     }
 
     /*gumbi*/
+    .header .home-icon {
+        display: none;
+    }
     .button-bottom-center {
         display: block;
         margin: 40px auto;
@@ -612,18 +611,18 @@ header {
 
     /*header*/
     .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    background: linear-gradient(45deg, #b72026, #42515a);
-    z-index: 1000;
-    padding: 0 40px;
-  }
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        background: linear-gradient(45deg, #b72026, #42515a);
+        z-index: 1000;
+        padding: 0 40px;
+    }
   
   .kviz-tablet-btn {
         display: inline-block !important;
@@ -639,9 +638,6 @@ header {
     .kviz-tablet-btn:hover {
         background-color: white;
         color: #42515a;
-    }
-    .header .home-icon {
-        display: none;
     }
 
     /*padajući izbornik*/
@@ -850,13 +846,24 @@ header {
         z-index: 1000;
     }
     .header .button-link {
-    display: none;
+        display: none;
   }
-    .header .home-icon {
-        display: inline-block; 
-        left: 20px;
-        margin-top: -15px;
+    .home-icon {
+        display: flex;
+        align-items: center;
         position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-top: 0;
+        z-index: 1;
+        padding: 8px;
+    }
+  .svg-home-icon {
+        width: 24px;
+        height: 24px;
+        stroke: #fff;
+        color: white;
     }
 
     /*padajući izbornik*/

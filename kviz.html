@@ -34,57 +34,63 @@
     </div>
     
 
-   <script>
-        document.querySelectorAll('.flip-card').forEach(card => {
+  <script>
+    document.querySelectorAll('.flip-card').forEach(card => {
         card.addEventListener('click', function() {
             const inner = this.querySelector('.flip-card-inner');
             this.classList.toggle('flipped');
             inner.style.animation = 'none';
             void inner.offsetWidth; // force reflow
             if(this.classList.contains('flipped')) {
-            inner.style.animation = 'wobble-flip 0.6s';
+                inner.style.animation = 'wobble-flip 0.6s';
             }
         });
-        });
+    });
 
-        async function generateRandomAcronyms() {
-            try {
-                const response = await fetch('akronimi.json');
-                const data = await response.json();
+    async function generateRandomAcronyms() {
+    try {
+        const response = await fetch('akronimi.json');
+        const data = await response.json();
 
-                let allAcronyms = [];
+        let allAcronyms = [];
 
-                for (const category in data) {
-                    const acronymsInCategory = data[category];
-                    if (Array.isArray(acronymsInCategory)) {
-                        allAcronyms = allAcronyms.concat(acronymsInCategory);
-                    }
-                }
+        // Only collect acronyms NOT from the Funny category
+        for (const category in data) {
+            if (category === "Funny") continue; // <-- SKIP Funny!
+            const acronymsInCategory = data[category];
+            if (Array.isArray(acronymsInCategory)) {
+                allAcronyms = allAcronyms.concat(acronymsInCategory);
+            }
+        }
 
-            const random = allAcronyms.sort(() => 0.5 - Math.random()).slice(0, 3);
+        const random = allAcronyms
+            .sort(() => 0.5 - Math.random())
+            .slice(0, Math.min(3, allAcronyms.length));
 
-            const showAcronym = random.map(item => 
-                `<div class="acronym">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">${item.akronim}</div>
-                        <div class="flip-card-back"><span class="full-name">${item.puni_naziv}</span></div>
+        const showAcronym = random.map(item => 
+            `<div class="acronym">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">${item.akronim}</div>
+                    <div class="flip-card-back">
+                        <span class="full-name">${item.puni_naziv}</span>
                     </div>
-                </div>`
-            ).join('');
+                </div>
+            </div>`
+        ).join('');
 
-            document.getElementById('random-acronyms').innerHTML = showAcronym;
+        document.getElementById('random-acronyms').innerHTML = showAcronym;
 
-            document.querySelectorAll('.acronym').forEach(card => {
-                card.addEventListener('click', () => {
-                    card.classList.toggle('flipped');
-                });
-});
+        document.querySelectorAll('.acronym').forEach(card => {
+            card.addEventListener('click', () => {
+                card.classList.toggle('flipped');
+            });
+        });
 
-            } catch (err) {
-                console.error("Error while loading JSON:", err);
-                }
-            }
-    </script>
+    } catch (err) {
+        console.error("Error while loading JSON:", err);
+    }
+}
+</script>
 
 </body>
 </html>
